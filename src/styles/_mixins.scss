@@ -1,11 +1,19 @@
 @mixin from($viewport) {
   @if $viewport == sm {
-    @media screen and (max-width: $sm) { @content; }
+    @media screen and (max-width: $sm) {
+      @content;
+    }
   } @else if $viewport == md {
-    @media screen and (min-width: $md) { @content; }
+    @media screen and (min-width: $md) {
+      @content;
+    }
   } @else if $viewport == xl {
-    @media screen and (min-width: $xl) { @content; }
+    @media screen and (min-width: $xl) {
+      @content;
+    }
   } @else if $viewport == xxl {
-    @media screen and (min-width: $xxl) { @content; }
-  } 
+    @media screen and (min-width: $xxl) {
+      @content;
+    }
+  }
 }
