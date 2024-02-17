@@ -21,14 +21,14 @@ export const Donate = (): JSX.Element => {
   return (
     <section className="p-16 container">
       <h2 className="text-center">Apoyanos</h2>
-      <p className="mt-4 md:mt-6">
+      <p className="mt-4 md:mt-6 text-center">
         Elit eiusmod voluptate esse nulla labore sint sint duis consectetur amet
         proident.
       </p>
-      <div className="mt-2 md:mt-3 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      <div className="mt-4 md:mt-6 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
         {donationList.map((element) => {
           return (
-            <div className="p-3 border-solid rounded-md	bg-zinc-100 shadow-md">
+            <div className="p-3 border-solid rounded-md	bg-zinc-200 shadow-md">
               <h3 className="mb-1">{element.title}</h3>
               <p>{element.text}</p>
             </div>
