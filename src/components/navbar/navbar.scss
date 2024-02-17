@@ -1,0 +1,9 @@
+.navbar-links {
+  li {
+    padding: 0 8px;
+
+    &:not(:last-child) {
+      border-right: 1px solid #000;
+    }
+  }
+}
