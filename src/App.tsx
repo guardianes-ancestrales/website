@@ -1,9 +1,5 @@
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import './App.css'
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import "./App.css";
 
 function App() {
   return (
@@ -11,8 +7,8 @@ function App() {
       <CardHeader>
         <CardTitle>Guardianes ancestrales</CardTitle>
       </CardHeader>
-    </ Card>
-  )
+    </Card>
+  );
 }
 
-export default App
+export default App;
