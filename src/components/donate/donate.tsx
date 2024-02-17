@@ -19,7 +19,7 @@ export const Donate = (): JSX.Element => {
   ];
 
   return (
-    <section className="p-16 container">
+    <section className="py-16 container">
       <h2 className="text-center">Apoyanos</h2>
       <p className="mt-4 md:mt-6 text-center">
         Elit eiusmod voluptate esse nulla labore sint sint duis consectetur amet
