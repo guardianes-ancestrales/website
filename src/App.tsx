@@ -1,13 +1,13 @@
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { Navbar } from "./components/navbar/navbar";
+
+import "./styles/main.scss";
 import "./App.css";
 
 function App() {
   return (
-    <Card className="w-[350px]">
-      <CardHeader>
-        <CardTitle>Guardianes ancestrales</CardTitle>
-      </CardHeader>
-    </Card>
+    <>
+      <Navbar />
+    </>
   );
 }
 
