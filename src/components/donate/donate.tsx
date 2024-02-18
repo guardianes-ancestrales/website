@@ -26,9 +26,12 @@ export const Donate = (): JSX.Element => {
         proident.
       </p>
       <div className="mt-4 md:mt-6 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
-        {donationList.map((element) => {
+        {donationList.map((element, index) => {
           return (
-            <div className="p-3 border-solid rounded-md	bg-zinc-200 shadow-md">
+            <div
+              className="p-3 border-solid rounded-md	bg-zinc-200 shadow-md"
+              key={index}
+            >
               <h3 className="mb-1">{element.title}</h3>
               <p>{element.text}</p>
             </div>
