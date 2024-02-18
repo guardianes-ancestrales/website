@@ -2,20 +2,12 @@
 
 .hero {
   min-height: 500px;
-  position: relative;
+  @apply relative;
 
-  &::before {
-    background-image: url("./hero.jpg");
-    background-position: 0 20%;
-    background-size: cover;
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
+  &__background {
+    @apply absolute left-0 top-0 w-full h-full object-cover;
     opacity: 0.6;
-    height: 100%;
-    width: 100%;
+    object-position: 0 20%;
     z-index: -1;
   }
 
