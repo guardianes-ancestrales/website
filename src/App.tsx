@@ -3,7 +3,7 @@ import { Navbar } from "./components/navbar/navbar";
 import { Home } from "./pages/home";
 import { About } from "./pages/about";
 import { Team } from "./pages/team";
-
+import { Footer } from "./components/footer/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -19,6 +19,7 @@ function App() {
         <Route path="nuestro-equipo" element={<Team />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
