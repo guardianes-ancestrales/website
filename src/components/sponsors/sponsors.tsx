@@ -53,9 +53,9 @@ export const Sponsors = (): JSX.Element => {
 
   return (
     <section className="py-16 container">
-      {sponsors.map((section) => {
+      {sponsors.map((section, index) => {
         return (
-          <div>
+          <div key={index}>
             <h2 className="text-center">{section.title}</h2>
             <div className="mt-4 md:mt-6 flex flex-wrap  items-center justify-center">
               {section.items.map((sponsor, index) => {
