@@ -1,0 +1,30 @@
+@import "../../styles/mixins";
+
+.hero {
+  min-height: 500px;
+  position: relative;
+
+  &::before {
+    background-image: url("./hero.jpg");
+    background-position: 0 20%;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__title {
+    color: black;
+    line-height: 50px;
+
+    @include from("md") {
+      width: 50%;
+    }
+  }
+}
