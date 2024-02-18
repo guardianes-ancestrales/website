@@ -1,5 +1,6 @@
 import { Navbar } from "./components/navbar/navbar";
 import { Hero } from "./components/hero/hero";
+import { Event } from "./components/event/event";
 import { Donate } from "./components/donate/donate";
 import { Faq } from "./components/faq/faq";
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Event />
       <Donate />
       <Faq />
     </>
