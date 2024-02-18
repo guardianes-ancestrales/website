@@ -34,7 +34,7 @@ export const Faq = (): JSX.Element => {
       <Accordion type="single" className="mt-4 md:mt-6" collapsible>
         {faqItems.map((element, index) => {
           return (
-            <AccordionItem value={`item-${index}`}>
+            <AccordionItem value={`item-${index}`} key={index}>
               <AccordionTrigger className="faq__subtitle">
                 {element.title}
               </AccordionTrigger>
