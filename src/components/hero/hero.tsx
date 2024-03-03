@@ -1,3 +1,4 @@
+import { Thermometer } from "@/thermometer/thermometer";
 import heroBackground from "@/assets/hero.jpg";
 import "./hero.scss";
 
@@ -19,6 +20,7 @@ export const Hero = (): JSX.Element => {
         <h1 className="hero__title">{content.title}</h1>
         <h2 className="hero__subtitle">{content.subtitle}</h2>
       </div>
+      <Thermometer />
     </section>
   );
 };
