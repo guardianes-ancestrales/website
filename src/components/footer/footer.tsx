@@ -3,7 +3,7 @@ import "./footer.scss";
 
 export const Footer = (): JSX.Element => {
   return (
-    <footer className="p-8 text-center bg-zinc-200">
+    <footer className="footer">
       <p>
         Guardianes Ancestrales 2024 | guardianesancestralesdev@gmail.com |{" "}
         <a href="https://www.instagram.com/guardianes_ancestralesdev/">
