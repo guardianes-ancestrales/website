@@ -1,4 +1,4 @@
-import igLogo from "../../assets/instagram-logo.png";
+import igLogo from "@/assets/instagram-logo.png";
 import "./footer.scss";
 
 export const Footer = (): JSX.Element => {

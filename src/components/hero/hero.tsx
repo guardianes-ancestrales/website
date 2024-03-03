@@ -1,4 +1,4 @@
-import heroBackground from "../../assets/hero.jpg";
+import heroBackground from "@/assets/hero.jpg";
 import "./hero.scss";
 
 export const Hero = (): JSX.Element => {
