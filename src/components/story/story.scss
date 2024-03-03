@@ -18,10 +18,10 @@
   }
 
   &__media {
-    @apply flex items-center md:col-span-6;
+    @apply flex items-center justify-center md:col-span-6;
 
     &-image {
-      @apply h-48 md:h-96;
+      @apply max-h-72 md:max-h-96;
     }
   }
 }
