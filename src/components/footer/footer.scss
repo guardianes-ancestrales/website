@@ -1,4 +1,13 @@
-.footer-ig {
-  display: inline;
-  width: 20px;
+@import "../../styles/variables";
+
+.footer {
+  @apply p-8 text-center;
+  background: $keppel;
+  color: $white;
+
+  &-ig {
+    display: inline;
+    filter: invert(1);
+    width: 20px;
+  }
 }
