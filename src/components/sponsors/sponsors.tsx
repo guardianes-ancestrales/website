@@ -1,3 +1,5 @@
+import "./sponsors.scss";
+
 export const Sponsors = (): JSX.Element => {
   const sponsors = [
     {
@@ -29,14 +31,14 @@ export const Sponsors = (): JSX.Element => {
       title: "patrocinadores",
       items: [
         {
-          name: "Pioneras Developers",
-          logo: "logo-pioneras.png",
-          url: "https://www.instagram.com/pionerasdev/",
+          name: "Jonnathan Arias",
+          logo: "logo-jonathan-a.png",
+          url: "mailto:jonnathan1806@gmail.com",
         },
         {
-          name: "Geek Girls",
-          logo: "logo-ggl.png",
-          url: "https://www.instagram.com/geekgirlslatam/",
+          name: "Colombia Dev",
+          logo: "logo-col-dev.svg",
+          url: "https://www.jsconf.co/",
         },
       ],
     },
@@ -52,15 +54,15 @@ export const Sponsors = (): JSX.Element => {
   }
 
   return (
-    <section className="py-16 container">
+    <section className="sponsors">
       {sponsors.map((section, index) => {
         return (
           <div key={index}>
-            <h2 className="text-center">{section.title}</h2>
-            <div className="mt-4 md:mt-6 flex flex-wrap items-center justify-center">
+            <h2 className="sponsors__title">{section.title}</h2>
+            <div className="sponsors__section">
               {section.items.map((sponsor, index) => {
                 return (
-                  <div key={index} className="p-5 basis-1/2 md:basis-1/4">
+                  <div key={index} className="sponsors__item">
                     <a href={sponsor.url} target="_blank">
                       <img
                         src={getImage(sponsor.logo)}

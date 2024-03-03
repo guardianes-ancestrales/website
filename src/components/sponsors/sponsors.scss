@@ -1,0 +1,15 @@
+.sponsors {
+  @apply py-16 container;
+
+  &__title {
+    @apply text-center;
+  }
+
+  &__section {
+    @apply mt-4 md:mt-6 flex flex-wrap items-center justify-center;
+  }
+
+  &__item {
+    @apply p-5 basis-1/2 md:basis-1/4;
+  }
+}
