@@ -34,8 +34,8 @@ export const Donate = (): JSX.Element => {
         <div className="donate__list">
           {donationList.map((element, index) => {
             return (
-              <div className="donate__list-item-container">
-                <div className="donate__list-item" key={index}>
+              <div className="donate__list-item-container" key={index}>
+                <div className="donate__list-item">
                   <h3 className="donate__list-item-title">
                     <span className="donate__list-item-title-decor" />
                     {element.title}

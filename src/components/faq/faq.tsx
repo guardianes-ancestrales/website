@@ -7,6 +7,9 @@ import {
 import "./faq.scss";
 
 export const Faq = (): JSX.Element => {
+  const content = {
+    title: "Preguntas frecuentes",
+  };
   const faqItems = [
     {
       title: "¿A dónde puedo enviar las donaciones?",
@@ -49,8 +52,8 @@ export const Faq = (): JSX.Element => {
   ];
 
   return (
-    <section className="faq">
-      <h2 className="faq__title">FAQ</h2>
+    <section className="faq" id="faq">
+      <h2 className="faq__title">{content.title}</h2>
       <Accordion className="faq__container" type="single" collapsible>
         {faqItems.map((item, index) => {
           return (

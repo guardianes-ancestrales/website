@@ -11,7 +11,7 @@ export const Story = (): JSX.Element => {
   };
 
   return (
-    <section className="story">
+    <section className="story" id="about">
       <div className="story__container">
         <div className="story__media">
           <img

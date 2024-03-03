@@ -1,6 +1,7 @@
-@import "../../styles/variables";
+@import "../../styles/mixins";
 
 .navbar {
+  @apply p-6 flex justify-between items-center;
   position: absolute;
   z-index: 2;
   width: 100%;
@@ -8,12 +9,91 @@
   color: $white;
   top: 0;
 
-  &-links {
-    li {
+  &__links {
+    @apply p-8 absolute top-0 left-0 right-0 flex-col text-center justify-center;
+    display: none;
+    background: $white;
+    color: $black;
+    height: 100vh;
+
+    @include from(lg) {
+      @apply flex flex-row justify-end;
+      background: transparent;
+      color: $white;
+      height: auto;
+    }
+  }
+
+  &__item {
+    @apply p-4;
+
+    @include from(lg) {
       padding: 0 8px;
 
       &:not(:last-child) {
         border-right: 1px solid $white;
+      }
+    }
+  }
+
+  &__toggle {
+    @apply flex justify-center items-center;
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    @include from(lg) {
+      display: none;
+    }
+
+    &-line {
+      margin: 0;
+      display: block;
+      width: 80%;
+      height: 12%;
+      background: $white;
+      transition: 1s;
+    }
+
+    &-line::before,
+    &-line::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      position: relative;
+      transition: 1s;
+    }
+    &-line::before {
+      top: -220%;
+    }
+    &-line::after {
+      top: 120%;
+    }
+  }
+
+  &--active {
+    @media screen and (max-width: $lg) {
+      position: sticky;
+
+      .navbar {
+        &__links {
+          display: flex;
+        }
+
+        &__toggle {
+          &-line,
+          &-line::after,
+          &-line::before {
+            background: $black;
+          }
+        }
       }
     }
   }
