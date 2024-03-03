@@ -5,7 +5,7 @@ export const Hero = (): JSX.Element => {
   const content = {
     title: "Guardianes Ancestrales",
     subtitle:
-      "Fortaleciendo el futuro a través de la educación y la tradición.",
+      "Fortaleciendo el futuro de la comunidad indigena Wayuu a través de la educación y la tradición.",
   };
   return (
     <section className="py-16 hero flex items-center">
