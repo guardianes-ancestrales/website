@@ -1,25 +1,25 @@
 import { Navbar } from "./components/navbar/navbar";
-import { Hero } from "./components/hero/hero";
-import { Story } from "./components/story/story";
-import { Event } from "./components/event/event";
-import { Donate } from "./components/donate/donate";
-import { Faq } from "./components/faq/faq";
-import { Sponsors } from "./components/sponsors/sponsors";
+
+import { Home } from "./pages/home";
+import { About } from "./pages/about";
+import { Team } from "./pages/team";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import "./styles/main.scss";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Hero />
-      <Story />
-      <Event />
-      <Donate />
-      <Faq />
-      <Sponsors />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="acerca-de" element={<About />} />
+        <Route path="nuestro-equipo" element={<Team />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
