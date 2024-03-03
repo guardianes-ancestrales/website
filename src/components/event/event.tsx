@@ -1,31 +1,36 @@
 import { Button } from "@/components/ui/button";
 import logoVertical from "../../assets/logo-vertical.svg";
+import "./event.scss";
 
 export const Event = (): JSX.Element => {
+  const content = {
+    title: "Guardianes Ancestrales",
+    intro: "Un evento diseñado para los niños y niñas de La Guajira, Colombia.",
+    description:
+      "La meta de este evento es mejorar el acceso a la educación y proporcionar herramientas para fortalezer las habilidades academicas y socioemocionales de la niñez en esta comunidad. Este 27 de abril, tendremos un día de talleres interactivos y haremos entrega de donaciones.",
+
+    donate: "Haz parte de este evento a través de tus donaciones.",
+    cta: "Cómo donar",
+  };
+
   return (
-    <section className="py-16 container">
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="flex flex-col justify-center">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p className="mt-4 md:mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            nunc magna, suscipit ut tellus ut, pulvinar vestibulum justo.
-          </p>
-          <p className="mt-2 md:mt-4">
-            Proin vel pretium sem, sed finibus diam. Etiam a metus et massa
-            aliquet condimentum. Nam rhoncus velit sit amet lacus egestas, a
-            iaculis elit semper. Aliquam erat volutpat.
-          </p>
-          <Button className="mt-4 md:mt-6 w-40" variant="outline">
-            Dona
-          </Button>
-        </div>
-        <div className="flex justify-center items-center">
+    <section className="event">
+      <div className="event__container">
+        <div className="event__media">
           <img
             src={logoVertical}
-            className="h-96"
+            className="event__media-logo"
             alt="Guardianes ancestrales"
           />
+        </div>
+        <div className="event__content">
+          <h2>{content.title}</h2>
+          <p className="event__content-intro">{content.intro}</p>
+          <p className="event__content-description">{content.description}</p>
+          <p className="event__content-description">{content.donate}</p>
+          <Button className="event__content-cta" variant="outline">
+            {content.cta}
+          </Button>
         </div>
       </div>
     </section>

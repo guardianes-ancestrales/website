@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.separator {
+  @apply relative;
+
+  &__icon {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-9;
+  }
+
+  &__horizontal {
+    border-color: $green-kelp;
+  }
+}
