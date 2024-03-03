@@ -3,7 +3,7 @@ import "./sponsors.scss";
 export const Sponsors = (): JSX.Element => {
   const sponsors = [
     {
-      title: "comunidades",
+      title: "Comunidades",
       items: [
         {
           name: "Pioneras Developers",
@@ -28,7 +28,7 @@ export const Sponsors = (): JSX.Element => {
       ],
     },
     {
-      title: "patrocinadores",
+      title: "Patrocinadores",
       items: [
         {
           name: "Jonnathan Arias",

@@ -5,9 +5,19 @@
 
   &__icon {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-9;
+
+    &--left {
+      transform: translate(calc(-50% - 20px), -50%);
+      @apply h-6;
+    }
+
+    &--right {
+      transform: translate(calc(-50% + 20px), -50%);
+      @apply h-5;
+    }
   }
 
   &__horizontal {
-    border-color: $green-kelp;
+    border-color: $pizazz;
   }
 }

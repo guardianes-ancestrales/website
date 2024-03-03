@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import logoVertical from "@/assets/logo-vertical.svg";
 import "./event.scss";
@@ -28,9 +29,9 @@ export const Event = (): JSX.Element => {
           <p className="event__content-intro">{content.intro}</p>
           <p className="event__content-description">{content.description}</p>
           <p className="event__content-description">{content.donate}</p>
-          <Button className="event__content-cta" variant="outline">
-            {content.cta}
-          </Button>
+          <Link to="/donar">
+            <Button className="event__content-cta">{content.cta}</Button>
+          </Link>
         </div>
       </div>
     </section>

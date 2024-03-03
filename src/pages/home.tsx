@@ -15,6 +15,7 @@ export const Home = (): JSX.Element => {
       <Event />
       <Donate />
       <Faq />
+      <Separator />
       <Sponsors />
     </>
   );
