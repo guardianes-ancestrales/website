@@ -9,36 +9,55 @@ import "./faq.scss";
 export const Faq = (): JSX.Element => {
   const faqItems = [
     {
-      title:
-        "Magna labore consectetur magna ipsum cillum aute excepteur eu fugiat aliqua?",
+      title: "¿A donde puedo enviar las donaciones?",
       answer:
-        "Fugiat voluptate dolore sit Lorem mollit est mollit in qui proident mollit sint non. Cupidatat sit anim sint officia. Nostrud ipsum labore aliquip dolor sunt. Id pariatur aliquip dolore eiusmod reprehenderit ad minim adipisicing aliqua qui esse ipsum.",
+        "Puedes llevar las donaciones a los eventos de tecnología en los que estamos presente, los vamos a anunciar en nuestro Instagram. También puedes enviarlos a varias direcciones físicas en Medellín-Colombia, escríbenos a nuestro instagram o al correo y coordinamos la entrega.",
     },
     {
-      title:
-        "Magna labore consectetur magna ipsum cillum aute excepteur eu fugiat aliqua?",
-      answer:
-        "Fugiat voluptate dolore sit Lorem mollit est mollit in qui proident mollit sint non. Cupidatat sit anim sint officia. Nostrud ipsum labore aliquip dolor sunt. Id pariatur aliquip dolore eiusmod reprehenderit ad minim adipisicing aliqua qui esse ipsum.",
+      title: "¿Puedo donar productos de higiene personal?",
+      answer: "Si, excepto copas menstruales.",
     },
     {
-      title:
-        "Magna labore consectetur magna ipsum cillum aute excepteur eu fugiat aliqua?",
+      title: "¿Puedo donar ropa usada?",
+      answer: "Si, si la prenda se encuentra en buen estado.",
+    },
+    {
+      title: "¿Puedo donar ropa para diferentes edades?",
+      answer: "Si, también puedes donar ropa para adultos.",
+    },
+    {
+      title: "¿Puedo donar solo un libro?",
       answer:
-        "Fugiat voluptate dolore sit Lorem mollit est mollit in qui proident mollit sint non. Cupidatat sit anim sint officia. Nostrud ipsum labore aliquip dolor sunt. Id pariatur aliquip dolore eiusmod reprehenderit ad minim adipisicing aliqua qui esse ipsum.",
+        "Claro que si! Todas las ayudas suman, si tienes un libro, un cuaderno que no usas, una calculadora, una camisa, cada elemento suma.",
+    },
+    {
+      title: "¿Que tipo de libros puedo donar?",
+      answer:
+        "Todo tipo de libros, el objetivo es dejar una biblioteca para los niños dado que ellos no tienen acceso a este tipo de material educativo, algunas ideas son: libros de matemáticas, ciencia, tecnología, literatura, material educativo para que los niños aprendan a leer y escribir, diccionarios.",
+    },
+    {
+      title: "¿Puedo donar juguetes?",
+      answer:
+        "Si, recibimos juguetes nuevos o usados que estén en buen estado.",
+    },
+    {
+      title: "¿Puedo donar dinero?",
+      answer:
+        "Si, no importa el valor, tu aporte puede cambiar vidas. Tenemos varias alternativas para las donaciones monetarias, puedes donar a través de nuestro Vaki o Nequi utilizando este código QR.",
     },
   ];
 
   return (
-    <section className="py-16 container">
-      <h2 className="text-center">FAQ</h2>
-      <Accordion type="single" className="mt-4 md:mt-6" collapsible>
-        {faqItems.map((element, index) => {
+    <section className="faq">
+      <h2 className="faq__title">FAQ</h2>
+      <Accordion className="faq__container" type="single" collapsible>
+        {faqItems.map((item, index) => {
           return (
             <AccordionItem value={`item-${index}`} key={index}>
               <AccordionTrigger className="faq__subtitle">
-                {element.title}
+                {item.title}
               </AccordionTrigger>
-              <AccordionContent>{element.answer}</AccordionContent>
+              <AccordionContent>{item.answer}</AccordionContent>
             </AccordionItem>
           );
         })}
