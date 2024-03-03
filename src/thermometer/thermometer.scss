@@ -1,0 +1,48 @@
+@import "../styles/mixins";
+
+.thermometer {
+  @apply right-5 bottom-5 md:bottom-1/2 absolute md:fixed w-20 z-10 cursor-pointer transition-transform md:translate-y-1/2;
+
+  &:hover {
+    @apply drop-shadow-lg scale-105;
+  }
+
+  &__cta {
+    background-color: $burnt-sienna !important;
+    display: none !important;
+
+    @apply mt-4;
+
+    @include from("md") {
+      display: inline !important;
+    }
+  }
+}
+
+.cls-1 {
+  fill: #48b6a3;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  stroke-width: 0px;
+}
+
+.cls-2 {
+  fill: #1e2c19;
+}
+
+.cls-3 {
+  fill: #00a796;
+}
+
+.cls-4 {
+  fill: #fff;
+}
+
+.cls-5 {
+  fill: #ef7469;
+}

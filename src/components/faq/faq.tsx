@@ -9,13 +9,14 @@ import "./faq.scss";
 export const Faq = (): JSX.Element => {
   const faqItems = [
     {
-      title: "¿A donde puedo enviar las donaciones?",
+      title: "¿A dónde puedo enviar las donaciones?",
       answer:
         "Puedes llevar las donaciones a los eventos de tecnología en los que estamos presente, los vamos a anunciar en nuestro Instagram. También puedes enviarlos a varias direcciones físicas en Medellín-Colombia, escríbenos a nuestro instagram o al correo y coordinamos la entrega.",
     },
     {
       title: "¿Puedo donar productos de higiene personal?",
-      answer: "Si, excepto copas menstruales.",
+      answer:
+        "Si, con excepción de copas menstruales, puedes donar cualquier producto de higiene personal.",
     },
     {
       title: "¿Puedo donar ropa usada?",
@@ -31,7 +32,7 @@ export const Faq = (): JSX.Element => {
         "Claro que si! Todas las ayudas suman, si tienes un libro, un cuaderno que no usas, una calculadora, una camisa, cada elemento suma.",
     },
     {
-      title: "¿Que tipo de libros puedo donar?",
+      title: "¿Qué tipo de libros puedo donar?",
       answer:
         "Todo tipo de libros, el objetivo es dejar una biblioteca para los niños dado que ellos no tienen acceso a este tipo de material educativo, algunas ideas son: libros de matemáticas, ciencia, tecnología, literatura, material educativo para que los niños aprendan a leer y escribir, diccionarios.",
     },
