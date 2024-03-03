@@ -6,7 +6,7 @@
   }
 
   &__content {
-    @apply flex flex-col justify-center md:col-span-6 lg:col-span-5;
+    @apply flex flex-col justify-center md:col-span-6;
 
     &-intro {
       @apply mt-4 md:mt-6;
@@ -18,7 +18,7 @@
   }
 
   &__media {
-    @apply flex items-center md:col-span-6 lg:col-span-5 lg:col-start-2;
+    @apply flex items-center md:col-span-6;
 
     &-image {
       @apply h-48 md:h-96;
