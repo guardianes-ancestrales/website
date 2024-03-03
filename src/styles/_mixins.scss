@@ -14,7 +14,7 @@
       @content;
     }
   } @else if $viewport == lg {
-    @media screen and (min-width: $xl) {
+    @media screen and (min-width: $lg) {
       @content;
     }
   } @else if $viewport == xxl {

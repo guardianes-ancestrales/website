@@ -1,7 +1,7 @@
 @import "../../styles/mixins";
 
 .hero {
-  @apply relative;
+  @apply py-16 flex items-center relative;
   background: linear-gradient(45deg, rgba(#c27600, 0.8), rgba(#c27600, 0.8));
   min-height: 700px;
 
@@ -12,19 +12,20 @@
   }
 
   &__text-container {
+    @apply mr-6 ml-6 md:mr-8 md:ml-8 text-center;
     color: $white;
-    text-align: center;
 
     @include from("md") {
       width: 50%;
     }
 
     @include from("lg") {
-      text-align: left;
+      @apply text-left;
     }
   }
 
   &__title {
+    @apply mb-4 drop-shadow-md;
     font-size: 52px;
     font-weight: 700;
     line-height: 50px;
