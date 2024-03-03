@@ -1,9 +1,20 @@
-.navbar-links {
-  li {
-    padding: 0 8px;
+@import "../../styles/variables";
 
-    &:not(:last-child) {
-      border-right: 1px solid #000;
+.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  box-shadow: none;
+  color: $white;
+  top: 0;
+
+  &-links {
+    li {
+      padding: 0 8px;
+
+      &:not(:last-child) {
+        border-right: 1px solid $white;
+      }
     }
   }
 }

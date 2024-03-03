@@ -5,7 +5,7 @@ import "./navbar.scss";
 
 export const Navbar = (): JSX.Element => {
   return (
-    <nav className="p-4 flex justify-between items-center shadow-md">
+    <nav className="p-4 flex justify-between items-center navbar">
       <Link to="/">
         <img
           src={logoHorizontal}

@@ -9,7 +9,11 @@
     @media screen and (min-width: $md) {
       @content;
     }
-  } @else if $viewport == xl {
+  } @else if $viewport == lg {
+    @media screen and (min-width: $xl) {
+      @content;
+    }
+  } @else if $viewport == lg {
     @media screen and (min-width: $xl) {
       @content;
     }

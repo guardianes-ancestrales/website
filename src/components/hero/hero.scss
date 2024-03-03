@@ -1,22 +1,36 @@
 @import "../../styles/mixins";
 
 .hero {
-  min-height: 500px;
   @apply relative;
+  background: linear-gradient(45deg, rgba(#c27600, 0.8), rgba(#c27600, 0.8));
+  min-height: 700px;
 
   &__background {
     @apply absolute left-0 top-0 w-full h-full object-cover;
-    opacity: 0.6;
     object-position: 0 20%;
     z-index: -1;
   }
 
-  &__title {
-    color: black;
-    line-height: 50px;
+  &__text-container {
+    color: $white;
+    text-align: center;
 
     @include from("md") {
       width: 50%;
+    }
+
+    @include from("lg") {
+      text-align: left;
+    }
+  }
+
+  &__title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 50px;
+
+    @include from("md") {
+      font-size: 58px;
     }
   }
 }
