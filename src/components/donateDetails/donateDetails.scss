@@ -1,0 +1,90 @@
+@import "../../styles/mixins";
+
+.donate-details {
+  @apply mt-16 p-8 container;
+
+  &__description {
+    @apply mb-4;
+
+    &-main {
+      @apply text-center;
+    }
+  }
+
+  &__section {
+    @apply container mb-16;
+  }
+
+  &__iframe {
+    margin: 0 auto;
+    height: 415px;
+    width: 300px;
+
+    @include from(md) {
+      height: 500px;
+      width: 650px;
+    }
+
+    @include from(lg) {
+      width: 900px;
+    }
+
+    @include from(xl) {
+      width: 1100px;
+    }
+  }
+
+  &__qr {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  &__list {
+    @apply ml-8;
+    column-gap: 30px;
+
+    @include from(md) {
+      column-count: 2;
+    }
+
+    @include from(lg) {
+      column-count: 3;
+    }
+  }
+
+  &__list-item {
+    list-style-type: disc;
+  }
+
+  &__title {
+    @apply text-center;
+    color: $burnt-sienna;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    @apply mb-4 mt-6;
+    color: $burnt-sienna;
+    font-weight: 700;
+    padding-left: 35px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url("../../assets/feather-pink.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      width: 30px;
+      height: 30px;
+      top: 25%;
+      left: 0;
+    }
+  }
+
+  &__subtitle-small {
+    @apply mt-8;
+  }
+}

@@ -57,7 +57,7 @@ export const Sponsors = (): JSX.Element => {
         return (
           <div key={index}>
             <h2 className="text-center">{section.title}</h2>
-            <div className="mt-4 md:mt-6 flex flex-wrap  items-center justify-center">
+            <div className="mt-4 md:mt-6 flex flex-wrap items-center justify-center">
               {section.items.map((sponsor, index) => {
                 return (
                   <div key={index} className="p-5 basis-1/2 md:basis-1/4">

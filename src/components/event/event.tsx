@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logoVertical from "../../assets/logo-vertical.svg";
+import logoVertical from "@/assets/logo-vertical.svg";
 import "./event.scss";
 
 export const Event = (): JSX.Element => {

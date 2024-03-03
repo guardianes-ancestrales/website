@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logoHorizontal from "../../assets/logo-horizontal.svg";
+import logoHorizontal from "@/assets/logo-horizontal.svg";
 import "./navbar.scss";
 
 export const Navbar = (): JSX.Element => {
@@ -21,7 +21,9 @@ export const Navbar = (): JSX.Element => {
           <li>
             <Link to="/nuestro-equipo">Nuestro equipo</Link>
           </li>
-          <li>Donaciones</li>
+          <li>
+            <Link to="/donar">Donaciones</Link>
+          </li>
         </ul>
       </div>
     </nav>

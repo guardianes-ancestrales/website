@@ -1,42 +1,54 @@
+import "./donate.scss";
+
 export const Donate = (): JSX.Element => {
+  const content = {
+    title: "Apóyanos",
+    description:
+      "¿Quieres ser parte de este proyecto y ayudar a cambiar las vidas de los niños de las comunidades indigenas? Puedes apoyarnos de muchas formas:",
+  };
   const donationList = [
     {
       title: "Dinero",
-      text: "Occaecat sunt ex commodo est ullamco mollit pariatur esse ut nostrud. Lorem officia officia Lorem amet consequat esse. ",
+      text: `Puedes enviar donaciones económicas desde $5.000COP a través de <a href='https://vaki.co/es/vaki/Jgub9KCub7NQrS6yJjvB' target="blank">Vaki </a> o Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target="blank">acá</a>.
+      <br/>El dinero recaudado será invertido en la compra de elementos para la biblioteca que se donará el día del evento.`,
     },
     {
       title: "Elementos",
-      text: "Occaecat sunt ex commodo est ullamco mollit pariatur esse ut nostrud. Lorem officia officia Lorem amet consequat esse. ",
-    },
-    {
-      title: "Lista de Deseos",
-      text: "Occaecat sunt ex commodo est ullamco mollit pariatur esse ut nostrud. Lorem officia officia Lorem amet consequat esse. ",
+      text: `Dona elementos educativos, libros, juguetes, ropa, o útiles escolares. <br/>
+      Para coordinar la entrega (en la ciudad de Medellín-Colombia) escríbenos a <a href="mailto:guardianesancestralesdev@gmail.com">guardianesancestralesdev@gmail.com</a> o envíanos un mensaje por <a href="https://www.instagram.com/guardianes_ancestralesdev/" target="blank">Instagram</a><br/>
+      Encuentra <a href='https://guardianesancestrales.com/donar' target="blank">acá</a> una lista de ideas de cosas que puedes donar.
+      `,
     },
     {
       title: "Patrocinio",
-      text: "Occaecat sunt ex commodo est ullamco mollit pariatur esse ut nostrud. Lorem officia officia Lorem amet consequat esse. ",
+      text: `¡Buscamos empresas que deseen patrocinarnos!<br/>
+      Comunícate con nosotros a través del correo <a href="mailto:guardianesancestralesdev@gmail.com">guardianesancestralesdev@gmail.com</a> para conocer los planes de patrocinio`,
     },
   ];
 
   return (
-    <section className="py-16 container">
-      <h2 className="text-center">Apoyanos</h2>
-      <p className="mt-4 md:mt-6 text-center">
-        Elit eiusmod voluptate esse nulla labore sint sint duis consectetur amet
-        proident.
-      </p>
-      <div className="mt-4 md:mt-6 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
-        {donationList.map((element, index) => {
-          return (
-            <div
-              className="p-3 border-solid rounded-md	bg-zinc-200 shadow-md"
-              key={index}
-            >
-              <h3 className="mb-1">{element.title}</h3>
-              <p>{element.text}</p>
-            </div>
-          );
-        })}
+    <section className="donate">
+      <div className="donate__container">
+        <h2 className="donate__title">{content.title}</h2>
+        <p className="donate__description">{content.description}</p>
+        <div className="donate__list">
+          {donationList.map((element, index) => {
+            return (
+              <div className="donate__list-item-container">
+                <div className="donate__list-item" key={index}>
+                  <h3 className="donate__list-item-title">
+                    <span className="donate__list-item-title-decor" />
+                    {element.title}
+                  </h3>
+                  <p
+                    className="donate__list-item-description"
+                    dangerouslySetInnerHTML={{ __html: element.text }}
+                  />
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

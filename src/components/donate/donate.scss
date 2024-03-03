@@ -1,0 +1,70 @@
+@import "../../styles/mixins";
+
+.donate {
+  background-color: $keppel;
+
+  &__container {
+    @apply py-16 container;
+  }
+
+  &__title {
+    @apply text-center;
+  }
+
+  &__description {
+    @apply mt-4 md:mt-6 text-center;
+  }
+
+  &__list {
+    @apply mt-4 md:mt-6 flex flex-wrap justify-center;
+
+    &-item {
+      @apply py-8 px-6 border-solid rounded-md bg-white shadow-md;
+      height: 100%;
+      transition: transform 0.3s ease-in;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      &-container {
+        @apply p-2;
+        width: 100%;
+
+        @include from(md) {
+          width: 50%;
+        }
+        @include from(lg) {
+          width: 33.33%;
+        }
+      }
+
+      &-title {
+        @apply mb-2 text-center;
+        color: $keppel;
+        font-weight: 700;
+
+        &-decor {
+          background-image: url("../../assets/feather.svg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          display: block;
+          margin: 0 auto;
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      &-description {
+        text-wrap: wrap;
+        word-wrap: break-word;
+
+        a {
+          text-decoration: underline;
+          text-decoration-color: $burnt-sienna;
+        }
+      }
+    }
+  }
+}
