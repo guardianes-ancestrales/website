@@ -3,7 +3,7 @@
 .navbar {
   $this: &;
 
-  @apply p-6 flex justify-between items-center z-20;
+  @apply p-4 md:p-6 flex justify-between items-center z-20;
   position: absolute;
   width: 100%;
   box-shadow: none;
