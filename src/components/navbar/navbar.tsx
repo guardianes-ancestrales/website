@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import logoHorizontal from "@/assets/logo-horizontal.svg";
 import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
 import "./navbar.scss";
@@ -20,20 +21,11 @@ export const Navbar = ({
     { route: "/", id: "#sponsors", label: "Patrocinadores" },
   ];
 
-  const scrollToSection =
-    (sectionId: string) => (event: { preventDefault: () => void }) => {
-      event.preventDefault();
-      const isMobile = window.innerWidth < 1024;
-
-      const section = document.querySelector(sectionId);
-
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "start" });
-        if (isMobile) {
-          toggleMenu();
-        }
-      }
-    };
+  const toggleMenuOnMobile = () => {
+    if (window.innerWidth < 1024) {
+      toggleMenu();
+    }
+  };
 
   const toggleMenu = () => {
     buttonRef.current?.classList.toggle("navbar--active");
@@ -59,12 +51,19 @@ export const Navbar = ({
         {routes.map((element, index) => {
           return (
             <li key={index} className="navbar__item">
-              <Link
-                to={element.route}
-                onClick={element.id ? scrollToSection(element.id) : undefined}
-              >
-                {element.label}
-              </Link>
+              {element.id ? (
+                <HashLink
+                  smooth
+                  to={element.route + element.id}
+                  onClick={toggleMenuOnMobile}
+                >
+                  {element.label}
+                </HashLink>
+              ) : (
+                <Link to={element.route} onClick={toggleMenuOnMobile}>
+                  {element.label}
+                </Link>
+              )}
             </li>
           );
         })}
