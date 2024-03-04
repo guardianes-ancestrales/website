@@ -25,6 +25,11 @@ export const Sponsors = (): JSX.Element => {
           logo: "logo-pyladies.png",
           url: "https://www.instagram.com/pyladiesmed/",
         },
+        {
+          name: "Tech Community",
+          logo: "logo-tech-community.png",
+          url: "https://www.instagram.com/techcommunity.col/",
+        },
       ],
     },
     {
