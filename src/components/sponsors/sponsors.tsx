@@ -54,7 +54,7 @@ export const Sponsors = (): JSX.Element => {
   }
 
   return (
-    <section className="sponsors">
+    <section className="sponsors" id="sponsors">
       {sponsors.map((section, index) => {
         return (
           <div key={index}>
