@@ -1,9 +1,16 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import logoHorizontal from "@/assets/logo-horizontal.svg";
 import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
 import "./navbar.scss";
 
-export const Navbar = (): JSX.Element => {
+export type NavbarTheme = "light" | "dark";
+
+export const Navbar = ({
+  theme = "light",
+}: {
+  theme?: NavbarTheme;
+}): JSX.Element => {
   const buttonRef = useRef<HTMLElement>(null);
 
   const routes = [
@@ -37,13 +44,13 @@ export const Navbar = (): JSX.Element => {
   };
 
   return (
-    <nav className="navbar" ref={buttonRef}>
-      <div className="navbar__toggle">
-        <span className="navbar__toggle-line" onClick={toggleMenu} />
+    <nav className={`navbar navbar--${theme}`} ref={buttonRef}>
+      <div className="navbar__toggle" onClick={toggleMenu}>
+        <span className="navbar__toggle-line" />
       </div>
       <Link to="/">
         <img
-          src={logoHorizontalWhite}
+          src={theme === "light" ? logoHorizontal : logoHorizontalWhite}
           className="h-12"
           alt="Guardianes ancestrales"
         />
