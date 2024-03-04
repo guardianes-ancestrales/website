@@ -9,7 +9,7 @@ export const Thermometer = (): JSX.Element => {
   return (
     <Link to="/donar">
       <div className="thermometer">
-        <Icon percentage={50} />
+        <Icon percentage={82} />
         <Button className="thermometer__cta">{content.donate}</Button>
       </div>
     </Link>
