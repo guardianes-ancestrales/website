@@ -1,4 +1,3 @@
-import { Navbar } from "./components/navbar/navbar";
 import { Footer } from "./components/footer/footer";
 
 import { Home } from "./pages/home";
@@ -15,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="acerca-de" element={<About />} />

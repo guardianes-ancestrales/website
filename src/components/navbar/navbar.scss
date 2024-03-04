@@ -1,25 +1,72 @@
 @import "../../styles/mixins";
 
 .navbar {
+  $this: &;
+
   @apply p-6 flex justify-between items-center;
   position: absolute;
   z-index: 2;
   width: 100%;
   box-shadow: none;
-  color: $white;
   top: 0;
+
+  &--light {
+    color: $black;
+
+    #{$this}__links {
+      color: $black;
+    }
+
+    #{$this}__toggle-line,
+    #{$this}__toggle-line::after,
+    #{$this}__toggle-line::before {
+      background: $black;
+    }
+
+    @include from(lg) {
+      #{$this}__item:not(:last-child) {
+        border-right: 1px solid $black;
+      }
+
+      #{$this}__links {
+        color: $black;
+      }
+    }
+  }
+
+  &--dark {
+    color: $white;
+
+    #{$this}__links {
+      color: $black;
+    }
+
+    #{$this}__toggle-line,
+    #{$this}__toggle-line::after,
+    #{$this}__toggle-line::before {
+      background: $white;
+    }
+
+    @include from(lg) {
+      #{$this}__item:not(:last-child) {
+        border-right: 1px solid $white;
+      }
+
+      #{$this}__links {
+        color: $white;
+      }
+    }
+  }
 
   &__links {
     @apply p-8 absolute top-0 left-0 right-0 flex-col text-center justify-center;
     display: none;
     background: $white;
-    color: $black;
     height: 100vh;
 
     @include from(lg) {
-      @apply flex flex-row justify-end;
+      @apply flex flex-row justify-end relative p-0;
       background: transparent;
-      color: $white;
       height: auto;
     }
   }
@@ -29,10 +76,6 @@
 
     @include from(lg) {
       padding: 0 8px;
-
-      &:not(:last-child) {
-        border-right: 1px solid $white;
-      }
     }
   }
 
@@ -56,7 +99,6 @@
       display: block;
       width: 80%;
       height: 12%;
-      background: $white;
       transition: 1s;
     }
 
@@ -66,7 +108,6 @@
       display: block;
       width: 100%;
       height: 100%;
-      background: #fff;
       position: relative;
       transition: 1s;
     }
