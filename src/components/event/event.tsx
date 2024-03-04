@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import logoVertical from "@/assets/logo-vertical.svg";
+import logoIconOnly from "@/assets/logo-icon-only.svg";
 import "./event.scss";
 
 export const Event = (): JSX.Element => {
@@ -19,7 +19,7 @@ export const Event = (): JSX.Element => {
       <div className="event__container">
         <div className="event__media">
           <img
-            src={logoVertical}
+            src={logoIconOnly}
             className="event__media-logo"
             alt="Guardianes ancestrales"
           />

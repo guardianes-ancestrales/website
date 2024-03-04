@@ -8,14 +8,8 @@
   }
 
   &__cta {
-    background-color: $burnt-sienna !important;
-    display: none !important;
-
     @apply mt-4;
-
-    @include from("md") {
-      display: inline !important;
-    }
+    background-color: $burnt-sienna !important;
   }
 }
 
