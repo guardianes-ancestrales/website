@@ -4,7 +4,7 @@ import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
 import "./navbar.scss";
 
 export const Navbar = (): JSX.Element => {
-  const buttonRef = useRef(null);
+  const buttonRef = useRef<HTMLElement>(null);
 
   const routes = [
     { route: "/", id: "#about", label: "Acerca de" },
