@@ -36,14 +36,29 @@ export const Sponsors = (): JSX.Element => {
       title: "Patrocinadores",
       items: [
         {
-          name: "Jonnathan Arias",
-          logo: "logo-jonathan-a.png",
-          url: "mailto:jonnathan1806@gmail.com",
-        },
-        {
           name: "Colombia Dev",
           logo: "logo-col-dev.svg",
           url: "https://www.jsconf.co/",
+        },
+        {
+          name: "Gorilla Logic",
+          logo: "logo-gorilla-logic.png",
+          url: "https://gorillalogic.com/",
+        },
+        {
+          name: "Growth Acceleration Partners",
+          logo: "logo-gap.png",
+          url: "https://www.growthaccelerationpartners.com/",
+        },
+        {
+          name: "SoftServe",
+          logo: "logo-soft-serve.png",
+          url: "https://www.softserveinc.com/",
+        },
+        {
+          name: "Jonnathan Arias",
+          logo: "logo-jonathan-a.png",
+          url: "mailto:jonnathan1806@gmail.com",
         },
       ],
     },
