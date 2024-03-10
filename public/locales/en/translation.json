@@ -1,8 +1,83 @@
 {
+  "communities": "Communities",
+  "donate": {
+    "section": {
+      "title": "Support us",
+      "description": "Do you want to be part of this project and help change the lives of children in indigenous communities? You can support us in many ways:",
+      "money": {
+        "title": "Money",
+        "description": "You can send financial donations from $5,000COP through <a href='https://vaki.co/es/vaki/Jgub9KCub7NQrS6yJjvB' target='blank'>Vaki </a> or Nequi by scanning the QR code you find <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>here</a>.<br/>The money raised will be invested in the purchase of items for the library that will be donated on the day of the event."
+      },
+      "items": {
+        "title": "Items",
+        "description": "Donate educational items, books, toys, clothing, or school supplies. <br/>To coordinate delivery (in the city of Medellín-Colombia) send us an email to <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> or send us a message through <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a><br/>Find <a href='https://guardianesancestrales.com/donar' target='blank'>here</a> a list of ideas of things you can donate."
+      },
+      "sponsorship": {
+        "title": "Sponsorship",
+        "description": "We are looking for companies that wish to sponsor us!<br/>Contact us through <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> to find out about sponsorship plans."
+      }
+    }
+  },
+  "event": {
+    "title": "Guardianes Ancestrales",
+    "intro": "An event designed for the boys and girls of La Guajira, Colombia.",
+    "description": "The goal of this event is to improve access to education and provide tools to strengthen the academic and socio-emotional skills of children in this community. This April 27, we will have a day of interactive workshops and we will deliver donations.",
+    "donate": "Be part of this event through your donations.",
+    "cta": "How to donate"
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": {
+      "donations": {
+        "question": "Where can I send donations?",
+        "answer": "You can bring donations to the technology events we are present at, we will announce them on our Instagram. You can also send them to various physical addresses in Medellín-Colombia, write to us on our Instagram or email and we will coordinate the delivery."
+      },
+      "hygiene": {
+        "question": "Can I donate personal hygiene products?",
+        "answer": "Yes, with the exception of menstrual cups, you can donate any personal hygiene product."
+      },
+      "clothes1": {
+        "question": "Can I donate used clothes?",
+        "answer": "Yes, if the garment is in good condition."
+      },
+      "clothes2": {
+        "question": "Can I donate clothes for different ages?",
+        "answer": "Yes, you can also donate adult clothing."
+      },
+      "books1": {
+        "question": "Can I donate just one book?",
+        "answer": "Of course! All help adds up, if you have a book, a notebook that you don't use, a calculator, a shirt, each element adds up."
+      },
+      "books2": {
+        "question": "What type of books can I donate?",
+        "answer": "All types of books, the objective is to give a library for the children since they do not have access to this type of educational material, some ideas are: mathematics books, science, technology, literature, educational material so that children learn to read and write, dictionaries."
+      },
+      "toys": {
+        "question": "Can I donate toys?",
+        "answer": "Yes, we receive new or used toys that are in good condition."
+      },
+      "money": {
+        "question": "Can I donate money?",
+        "answer": "Yes, no matter the value, your contribution can change lives. We have several alternatives for monetary donations, you can donate through our Vaki or Nequi using our QR code."
+      }
+    }
+  },
+  "hero": {
+    "subtitle": "Strengthening the future of the Wayuu indigenous community through education and tradition."
+  },
   "navbar": {
     "about": "About",
     "donate": "Donate",
     "faq": "FAQ",
     "sponsors": "Sponsors"
+  },
+  "sponsors": "Sponsors",
+  "story": {
+    "title": "The Wayuú",
+    "intro": "The Wayuú, or Guajiros, are the largest indigenous group in Colombia, mostly located in La Guajira and with an estimated population of 380,000 people.",
+    "description": "Only 11% of this community lives within urban areas, which means that access to education is limited. Guardianes Ancestrales is an initiative that seeks to close these educational gaps."
+  },
+  "thermometer": {
+    "donate": "Donate"
   }
 }

@@ -1,8 +1,83 @@
 {
+  "communities": "Comunidades",
+  "donate": {
+    "section": {
+      "title": "Apóyanos",
+      "description": "¿Quieres ser parte de este proyecto y ayudar a cambiar las vidas de los niños de las comunidades indigenas? Puedes apoyarnos de muchas formas:",
+      "money": {
+        "title": "Dinero",
+        "description": "Puedes enviar donaciones económicas desde $5.000COP a través de <a href='https://vaki.co/es/vaki/Jgub9KCub7NQrS6yJjvB' target='blank'>Vaki </a> o Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>acá</a>.<br/>El dinero recaudado será invertido en la compra de elementos para la biblioteca que se donará el día del evento."
+      },
+      "items": {
+        "title": "Elementos",
+        "description": "Dona elementos educativos, libros, juguetes, ropa, o útiles escolares. <br/>Para coordinar la entrega (en la ciudad de Medellín-Colombia) escríbenos a <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> o envíanos un mensaje por <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a><br/>Encuentra <a href='https://guardianesancestrales.com/donar' target='blank'>acá</a> una lista de ideas de cosas que puedes donar."
+      },
+      "sponsorship": {
+        "title": "Patrocinio",
+        "description": "¡Buscamos empresas que deseen patrocinarnos!<br/>Comunícate con nosotros a través del correo <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> para conocer los planes de patrocinio."
+      }
+    }
+  },
+  "event": {
+    "title": "Guardianes Ancestrales",
+    "intro": "Un evento diseñado para los niños y niñas de La Guajira, Colombia.",
+    "description": "La meta de este evento es mejorar el acceso a la educación y proporcionar herramientas para fortalezer las habilidades academicas y socioemocionales de la niñez en esta comunidad. Este 27 de abril, tendremos un día de talleres interactivos y haremos entrega de donaciones.",
+    "donate": "Haz parte de este evento a través de tus donaciones.",
+    "cta": "Cómo donar"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": {
+      "donations": {
+        "question": "¿A dónde puedo enviar las donaciones?",
+        "answer": "Puedes llevar las donaciones a los eventos de tecnología en los que estamos presente, los vamos a anunciar en nuestro Instagram. También puedes enviarlos a varias direcciones físicas en Medellín-Colombia, escríbenos a nuestro instagram o al correo y coordinamos la entrega."
+      },
+      "hygiene": {
+        "question": "¿Puedo donar productos de higiene personal?",
+        "answer": "Si, con excepción de copas menstruales, puedes donar cualquier producto de higiene personal."
+      },
+      "clothes1": {
+        "question": "¿Puedo donar ropa usada?",
+        "answer": "Si, si la prenda se encuentra en buen estado."
+      },
+      "clothes2": {
+        "question": "¿Puedo donar ropa para diferentes edades?",
+        "answer": "Si, también puedes donar ropa para adultos."
+      },
+      "books1": {
+        "question": "¿Puedo donar solo un libro?",
+        "answer": "Claro que si! Todas las ayudas suman, si tienes un libro, un cuaderno que no usas, una calculadora, una camisa, cada elemento suma."
+      },
+      "books2": {
+        "question": "¿Qué tipo de libros puedo donar?",
+        "answer": "Todo tipo de libros, el objetivo es dejar una biblioteca para los niños dado que ellos no tienen acceso a este tipo de material educativo, algunas ideas son: libros de matemáticas, ciencia, tecnología, literatura, material educativo para que los niños aprendan a leer y escribir, diccionarios."
+      },
+      "toys": {
+        "question": "¿Puedo donar juguetes?",
+        "answer": "Si, recibimos juguetes nuevos o usados que estén en buen estado."
+      },
+      "money": {
+        "question": "¿Puedo donar dinero?",
+        "answer": "Si, no importa el valor, tu aporte puede cambiar vidas. Tenemos varias alternativas para las donaciones monetarias, puedes donar a través de nuestro Vaki o Nequi utilizando nuestro código QR."
+      }
+    }
+  },
+  "hero": {
+    "subtitle": "Fortaleciendo el futuro de la comunidad indigena Wayuu a través de la educación y la tradición."
+  },
   "navbar": {
     "about": "Acerca de",
     "donate": "Donar",
     "faq": "Preguntas frecuentes",
     "sponsors": "Patrocinadores"
+  },
+  "sponsors": "Patrocinadores",
+  "story": {
+    "title": "El pueblo Wayuú",
+    "intro": "Los Wayuú, o guajiros, son el pueblo indígena mas grande de colombia, mayoritariamente ubicados en La Guajira y con una población estimada de 380.000 personas.",
+    "description": "Tan solo el 11% de esta comunidad vive en cabeceras municipales, lo que significa que el acceso a la educación es limitado. Guardianes Ancestrales es una iniciativa que busca cerrar estas brechas educativas."
+  },
+  "thermometer": {
+    "donate": "Dona"
   }
 }
