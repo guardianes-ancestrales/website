@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
 import "./sponsors.scss";
 
 export const Sponsors = (): JSX.Element => {
+  const { t } = useTranslation();
+
   const sponsors = [
     {
-      title: "Comunidades",
+      title: t("communities"),
       items: [
         {
           name: "Pioneras Developers",
@@ -33,7 +36,7 @@ export const Sponsors = (): JSX.Element => {
       ],
     },
     {
-      title: "Patrocinadores",
+      title: t("sponsors"),
       items: [
         {
           name: "Colombia Dev",

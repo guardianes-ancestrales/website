@@ -1,10 +1,14 @@
 @import "../styles/mixins";
 
 .thermometer {
-  @apply right-5 bottom-5 md:bottom-1/2 absolute md:fixed w-20 z-10 cursor-pointer transition-transform md:translate-y-1/2;
+  @apply right-5 bottom-5 md:bottom-1/2 absolute md:fixed flex flex-col items-center z-10 cursor-pointer transition-transform md:translate-y-1/2;
 
   &:hover {
     @apply drop-shadow-lg scale-105;
+  }
+
+  &__icon {
+    @apply w-20;
   }
 
   &__cta {
