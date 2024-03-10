@@ -2,13 +2,10 @@ import { Thermometer } from "@/thermometer/thermometer";
 import heroBackground from "@/assets/hero.jpg";
 import logoTextOnly from "@/assets/logo-text-only.svg";
 import "./hero.scss";
+import { useTranslation } from "react-i18next";
 
 export const Hero = (): JSX.Element => {
-  const content = {
-    title: "Guardianes Ancestrales",
-    subtitle:
-      "Fortaleciendo el futuro de la comunidad indigena Wayuu a través de la educación y la tradición.",
-  };
+  const { t } = useTranslation();
 
   return (
     <section className="hero">
@@ -26,7 +23,7 @@ export const Hero = (): JSX.Element => {
               alt="Guardianes ancestrales"
             />
           </h1>
-          <h2 className="hero__subtitle">{content.subtitle}</h2>
+          <h2 className="hero__subtitle">{t("hero.subtitle")}</h2>
         </div>
       </div>
       <Thermometer />
