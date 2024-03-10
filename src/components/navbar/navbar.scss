@@ -73,8 +73,17 @@
   &__item {
     @apply p-4;
 
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     @include from(lg) {
       padding: 0 8px;
+    }
+
+    &-button {
+      @apply flex items-center;
     }
   }
 

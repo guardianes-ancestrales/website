@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import logoHorizontal from "@/assets/logo-horizontal.svg";
 import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
+import translationIcon from "@/assets/translation-icon.svg";
+import translationIconWhite from "@/assets/translation-icon-white.svg";
 import "./navbar.scss";
+import { useTranslation } from "react-i18next";
 
 export type NavbarTheme = "light" | "dark";
 
@@ -12,13 +15,14 @@ export const Navbar = ({
 }: {
   theme?: NavbarTheme;
 }): JSX.Element => {
+  const { t, i18n } = useTranslation();
   const buttonRef = useRef<HTMLElement>(null);
 
   const routes = [
-    { route: "/", id: "#about", label: "Acerca de" },
-    { route: "/donar", label: "Donar" },
-    { route: "/", id: "#faq", label: "Preguntas frecuentes" },
-    { route: "/", id: "#sponsors", label: "Patrocinadores" },
+    { route: "/", id: "#about", label: t("navbar.about") },
+    { route: "/donar", label: t("navbar.donate") },
+    { route: "/", id: "#faq", label: t("navbar.faq") },
+    { route: "/", id: "#sponsors", label: t("navbar.sponsors") },
   ];
 
   const toggleMenuOnMobile = () => {
@@ -33,6 +37,10 @@ export const Navbar = ({
     document.body.style.overflow == "hidden"
       ? (document.body.style.overflow = "unset")
       : (document.body.style.overflow = "hidden");
+  };
+
+  const toggleLanguage = (language: string) => {
+    i18n.changeLanguage(language);
   };
 
   return (
@@ -67,6 +75,38 @@ export const Navbar = ({
             </li>
           );
         })}
+        {i18n.language === "es" ? (
+          <li className="navbar__item" onClick={() => toggleLanguage("en")}>
+            <button
+              className="navbar__item-button"
+              title="Translate page to english"
+            >
+              English&nbsp;
+              <img
+                src={theme === "light" ? translationIcon : translationIconWhite}
+                className="h-5"
+                aria-hidden="true"
+              />
+            </button>
+          </li>
+        ) : (
+          <li
+            className="navbar__item navbar__item--icon"
+            onClick={() => toggleLanguage("es")}
+          >
+            <button
+              className="navbar__item-button"
+              title="Traducir página al español"
+            >
+              Español&nbsp;
+              <img
+                src={theme === "light" ? translationIcon : translationIconWhite}
+                className="h-5"
+                aria-hidden="true"
+              />
+            </button>
+          </li>
+        )}
       </ul>
     </nav>
   );
