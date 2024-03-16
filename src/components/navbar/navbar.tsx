@@ -4,7 +4,6 @@ import { HashLink } from "react-router-hash-link";
 import logoHorizontal from "@/assets/logo-horizontal.svg";
 import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
 import translationIcon from "@/assets/translation-icon.svg";
-import translationIconWhite from "@/assets/translation-icon-white.svg";
 import "./navbar.scss";
 import { useTranslation } from "react-i18next";
 
@@ -82,11 +81,7 @@ export const Navbar = ({
               title="Translate page to english"
             >
               English&nbsp;
-              <img
-                src={theme === "light" ? translationIcon : translationIconWhite}
-                className="h-5"
-                aria-hidden="true"
-              />
+              <img src={translationIcon} className="h-5" aria-hidden="true" />
             </button>
           </li>
         ) : (
@@ -99,11 +94,7 @@ export const Navbar = ({
               title="Traducir página al español"
             >
               Español&nbsp;
-              <img
-                src={theme === "light" ? translationIcon : translationIconWhite}
-                className="h-5"
-                aria-hidden="true"
-              />
+              <img src={translationIcon} className="h-5" aria-hidden="true" />
             </button>
           </li>
         )}
