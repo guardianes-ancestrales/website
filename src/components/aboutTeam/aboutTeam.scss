@@ -1,0 +1,35 @@
+@import "../../styles/mixins";
+
+.about-team {
+  @apply mt-16 p-8 container;
+
+  &__container {
+    @apply pt-12 pb-12 gap-8 grid grid-cols-1 md:grid-cols-12;
+  }
+
+  &__content {
+    @apply flex flex-col justify-center md:col-span-6;
+  }
+
+  &__media {
+    @apply flex items-center justify-center md:col-span-6;
+
+    &-image {
+      @apply max-h-72 md:max-h-96;
+
+      mask: url("../../assets/mask-blob.svg");
+      mask-repeat: no-repeat;
+      mask-position: center;
+    }
+  }
+
+  &__title {
+    @apply text-center;
+    color: $burnt-sienna;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    @apply text-center;
+  }
+}
