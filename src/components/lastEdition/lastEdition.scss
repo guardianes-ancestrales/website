@@ -1,0 +1,20 @@
+@use "sass:color";
+@import "../../styles/mixins";
+
+.last-edition {
+  &__container {
+    @apply py-16 container grid gap-8 grid-cols-1 lg:grid-cols-12;
+  }
+
+  &__content {
+    @apply flex flex-col justify-center lg:col-span-5;
+
+    &-description {
+      @apply mt-4 md:mt-6;
+    }
+  }
+
+  &__media {
+    @apply flex justify-center items-center lg:col-span-6 lg:col-start-7;
+  }
+}
