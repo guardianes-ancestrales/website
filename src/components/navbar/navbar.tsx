@@ -22,6 +22,7 @@ export const Navbar = ({
     { route: "/donar", label: t("navbar.donate") },
     { route: "/", id: "#faq", label: t("navbar.faq") },
     { route: "/", id: "#sponsors", label: t("navbar.sponsors") },
+    { route: "/acerca-de", label: t("navbar.team") },
   ];
 
   const toggleMenuOnMobile = () => {

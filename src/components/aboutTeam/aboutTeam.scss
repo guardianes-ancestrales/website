@@ -8,18 +8,32 @@
   }
 
   &__content {
-    @apply flex flex-col justify-center md:col-span-6;
+    @apply flex flex-col justify-center md:col-span-8;
+
+    a {
+      text-decoration: underline;
+      text-decoration-color: $burnt-sienna;
+    }
+
+    p {
+      @apply pb-5;
+    }
   }
 
   &__media {
-    @apply flex items-center justify-center md:col-span-6;
+    @apply flex items-center justify-center md:col-span-4;
 
     &-image {
       @apply max-h-72 md:max-h-96;
 
-      mask: url("../../assets/mask-blob.svg");
+      mask-image: url("../../assets/mask-blob.svg");
       mask-repeat: no-repeat;
       mask-position: center;
+
+      &--rectangle {
+        mask-image: url("../../assets/mask-blob-rectangle.svg");
+        mask-size: cover;
+      }
     }
   }
 
