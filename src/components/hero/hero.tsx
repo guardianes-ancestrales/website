@@ -1,4 +1,4 @@
-import { Thermometer } from "@/thermometer/thermometer";
+import { Thermometer } from "@/components/thermometer/thermometer";
 import heroBackground from "@/assets/hero.jpg";
 import logoTextOnly from "@/assets/logo-text-only.svg";
 import "./hero.scss";
