@@ -1,12 +1,9 @@
-import { useTranslation } from "react-i18next";
 import { Separator } from "@/components/separator/separator";
 import pictureRinaPlata from "@/assets/pictures/rina-plata.jpeg";
 import pictureTeam from "@/assets/pictures/team.jpg";
 import "./aboutTeam.scss";
 
 export const AboutTeam = (): JSX.Element => {
-  const { t } = useTranslation();
-
   return (
     <section className="about-team">
       <h1 className="about-team__title">¿Quienes somos?</h1>
