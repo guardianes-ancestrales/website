@@ -16,7 +16,7 @@ export const AboutTeam = (): JSX.Element => {
       <div className="about-team__container">
         <div className="about-team__content">
           <h2 className="about-team__subtitle">Rina Plata</h2>
-          {Array.from(Array(5).keys()).map((i) => (
+          {Array.from(Array(6).keys()).map((i) => (
             <p
               key={i}
               dangerouslySetInnerHTML={{
@@ -24,13 +24,6 @@ export const AboutTeam = (): JSX.Element => {
               }}
             />
           ))}
-          <p>
-            Mira aquí la charla de Rina en la JSConf 2023:{" "}
-            <a href="https://youtu.be/CjGA5ba5aCc?t=30333">
-              "Mi Experiencia como Programadora Wayuu en la Industria de la
-              tecnología"
-            </a>
-          </p>
         </div>
         <div className="about-team__media">
           <img className="about-team__media-image" src={pictureRinaPlata} />
