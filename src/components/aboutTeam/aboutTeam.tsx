@@ -1,7 +1,7 @@
 import { Separator } from "@/components/separator/separator";
 import { useTranslation } from "react-i18next";
 
-import pictureRinaPlata from "@/assets/pictures/rina-plata.jpeg";
+import pictureRinaPlata from "@/assets/pictures/rina-plata.png";
 import pictureTeam from "@/assets/pictures/team.jpg";
 import "./aboutTeam.scss";
 
@@ -24,6 +24,13 @@ export const AboutTeam = (): JSX.Element => {
               }}
             />
           ))}
+          <p>
+            Mira aquí la charla de Rina en la JSConf 2023:{" "}
+            <a href="https://youtu.be/CjGA5ba5aCc?t=30333">
+              "Mi Experiencia como Programadora Wayuu en la Industria de la
+              tecnología"
+            </a>
+          </p>
         </div>
         <div className="about-team__media">
           <img className="about-team__media-image" src={pictureRinaPlata} />
@@ -34,7 +41,10 @@ export const AboutTeam = (): JSX.Element => {
 
       <div className="about-team__container">
         <div className="about-team__media">
-          <img className="about-team__media-image" src={pictureTeam} />
+          <img
+            className="about-team__media-image about-team__media-image--rectangle"
+            src={pictureTeam}
+          />
         </div>
         <div className="about-team__content">
           <h2 className="about-team__subtitle">{t("about.team.title")}</h2>
