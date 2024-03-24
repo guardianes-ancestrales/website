@@ -1,5 +1,19 @@
 {
   "about": {
+    "title": "About us",
+    "subtitle": "Get to know us!",
+    "rina": [
+      "Rina Plata is a passionate frontend developer, cat lover and proud Wayuu indigenous from San Juan del Cesar, La Guajira, Colombia, who not only shines in the technological world as a software engineering student at the Tecnológico de Antioquia and working as a developer at Syspotec, but is also the driving force behind this initiative.",
+      "In addition to her outstanding professional performance, Rina is an Ambassador of WIDS (Women in Data Science) Medellín and Women Techmakers, committed to promoting female participation in data science and technology. She is an active member of the Tech Community and PionerasDev communities, sharing valuable knowledge and experiences.",
+      "Guided by her love for her culture and roots, Rina proudly leads Guardianes Ancestrales, an event that exists thanks to her vision and desire to bring knowledge and support to her community in La Guajira. This project is dedicated to preserving ancestral knowledge and represents a significant effort to strengthen cultural and educational ties.",
+      "Her commitment extends to the project <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, where she contributes to public access to valuable information about the country through a RESTful API.",
+      "Tech event organizer and speaker, Rina generously shares her experience, leaving an inspiring mark on the tech community. Her story is a testament to passion, dedication, and the ability to make a difference, not only in the tech world, but also in the positive impact he can have in his own community."
+    ],
+    "team": {
+      "title": "Team",
+      "intro": "Behind Rina there is a great team that works every day, voluntarily, to support this beautiful initiative and bring joy to many boys and girls in La Guajira.",
+      "thanks": "Endless thanks to Miguel Teherán, Carolina Castañeda, Valentina Pinzón, Sandy Atencio, Sara Nieto, Valentina Ariza, Vrilli Castro, Elizabeth Rangel, Verónica Rodríguez, Kaky Rodríguez, Maris Botero, María 'Maka' Hernández, Greysy Rodríguez, Marian Villa, Rosario Casas, Manuela Castrillón, Sebastián Vargas, and many more people who support us every day with a grain of sand."
+    },
     "lastEdition": {
       "title": "Previous edition",
       "description": "During 2021-2022, the donations for the event where collected through Vaki to bring school supplies to the children of the Wayuu Curari community, in La Guajira, and although we managed to collect more than 2,800,000 Colombian pesos, many children were left without supplies. Therefore, we hope to exceed this number in 2024 and be able to bring more joy to all children."
