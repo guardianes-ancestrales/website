@@ -1,4 +1,4 @@
-import houseIcon from "@/assets/house-icon.svg";
+import houseIcon from "@/assets/illustrations/house-icon.svg";
 import "./separator.scss";
 
 export const Separator = (): JSX.Element => (
