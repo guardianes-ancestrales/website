@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import logoHorizontal from "@/assets/logo-horizontal.svg";
-import logoHorizontalWhite from "@/assets/logo-horizontal-white.svg";
-import translationIcon from "@/assets/translation-icon.svg";
+import logoHorizontal from "@/assets/guardianes-logos/logo-horizontal.svg";
+import logoHorizontalWhite from "@/assets/guardianes-logos/logo-horizontal-white.svg";
+import translationIcon from "@/assets/illustrations/translation-icon.svg";
 import "./navbar.scss";
 import { useTranslation } from "react-i18next";
 

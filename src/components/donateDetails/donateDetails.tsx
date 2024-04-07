@@ -1,4 +1,4 @@
-import nequiQR from "@/assets/qr-code-nequi.png";
+import nequiQR from "@/assets/pictures/qr-code-nequi.png";
 import "./donateDetails.scss";
 
 export const DonateDetails = (): JSX.Element => {

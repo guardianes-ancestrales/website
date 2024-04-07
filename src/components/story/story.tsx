@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import media from "@/assets/story-guajira.jpg";
+import media from "@/assets/pictures/story-guajira.jpg";
 import "./story.scss";
 
 export const Story = (): JSX.Element => {

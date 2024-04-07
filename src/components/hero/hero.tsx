@@ -1,6 +1,6 @@
 import { Thermometer } from "@/components/thermometer/thermometer";
-import heroBackground from "@/assets/hero.jpg";
-import logoTextOnly from "@/assets/logo-text-only.svg";
+import heroBackground from "@/assets/pictures/hero.jpg";
+import logoTextOnly from "@/assets/guardianes-logos/logo-text-only.svg";
 import "./hero.scss";
 import { useTranslation } from "react-i18next";
 

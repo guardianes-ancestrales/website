@@ -63,6 +63,11 @@ export const Sponsors = (): JSX.Element => {
           logo: "logo-jonathan-a.png",
           url: "mailto:jonnathan1806@gmail.com",
         },
+        {
+          name: "Miguel Teheran",
+          logo: "logo-mteheran.svg",
+          url: "https://mteheran.dev/",
+        },
       ],
     },
   ];

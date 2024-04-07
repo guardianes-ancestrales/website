@@ -26,12 +26,12 @@
     &-image {
       @apply max-h-72 md:max-h-96;
 
-      mask-image: url("../../assets/mask-blob.svg");
+      mask-image: url("../../assets/illustrations/mask-blob.svg");
       mask-repeat: no-repeat;
       mask-position: center;
 
       &--rectangle {
-        mask-image: url("../../assets/mask-blob-rectangle.svg");
+        mask-image: url("../../assets/illustrations/mask-blob-rectangle.svg");
         mask-size: cover;
       }
     }
