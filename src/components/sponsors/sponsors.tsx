@@ -68,6 +68,11 @@ export const Sponsors = (): JSX.Element => {
           logo: "logo-mteheran.svg",
           url: "https://mteheran.dev/",
         },
+        {
+          name: "MILL5",
+          logo: "logo-mill-5.png",
+          url: "https://www.mill5.com/",
+        },
       ],
     },
   ];
