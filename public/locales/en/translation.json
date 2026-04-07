@@ -54,8 +54,14 @@
       }
     }
   },
+  "eventBanner": {
+    "date": "May 30, 2026 · Medellín",
+    "title": "Guardianes Ancestrales comes to Medellín",
+    "subtitle": "We are going to spend a special day with the children of the Emberá community. Join us by donating and making this gathering possible.",
+    "cta": "I want to donate"
+  },
   "event": {
-    "title": "Guardianes Ancestrales",
+    "title": "Guardianes Ancestrales Medellín",
     "intro": "An event designed for the children of the Emberá community, in Medellín, Colombia.",
     "description": "On May 30, 2026, we will hold a day of interactive workshops, cultural activities, and donation delivery. Our goal is to bring education and technology closer to the Emberá children who will participate in this gathering.",
     "donate": "Your donation makes this day possible. Every contribution counts.",

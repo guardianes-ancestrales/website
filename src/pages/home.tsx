@@ -6,12 +6,14 @@ import { Donate } from "@/components/donate/donate";
 import { Faq } from "@/components/faq/faq";
 import { Sponsors } from "@/components/sponsors/sponsors";
 import { Separator } from "@/components/separator/separator";
+import { EventBanner } from "@/components/eventBanner/eventBanner";
 
 export const Home = (): JSX.Element => {
   return (
     <>
       <Navbar theme="dark" />
       <Hero />
+      <EventBanner />
       <Story />
       <Separator />
       <Event />
