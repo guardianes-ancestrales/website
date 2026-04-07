@@ -94,12 +94,12 @@ export const DonateDetails = (): JSX.Element => {
           <p className="donate-details__description">
             {content.money.vaki.description}
           </p>
-          <iframe
-            id="vakiIframe"
-            title="Guardianes Ancestrales"
-            src="https://vaki.co/iframe/guardianesAncestralesMedellin"
-            className="donate-details__iframe"
-          ></iframe>
+         <iframe id="vakiIframe"
+            title="Apoya a niños indígenas Emberas en Medellín para mejorar su educación y abrir un mundo de oportunidad en tecnología "
+            width="100%"
+            height="450"
+            src="https://vaki.co/iframe/RFHtrOb9wrfTMxu3j8a0">
+        </iframe>
         </div>
 
         {/* nequi */}
