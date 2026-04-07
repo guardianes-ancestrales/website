@@ -4,7 +4,6 @@
 
 .last-edition {
   @apply py-16;
-  background-color: color.adjust($green-kelp, $lightness: 68%);
 
   &__container {
     @apply container;
