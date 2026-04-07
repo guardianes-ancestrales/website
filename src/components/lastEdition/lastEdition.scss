@@ -1,20 +1,115 @@
 @use "sass:color";
+@import "../../styles/variables";
 @import "../../styles/mixins";
 
 .last-edition {
+  @apply py-16;
+  background-color: color.adjust($green-kelp, $lightness: 68%);
+
   &__container {
-    @apply py-16 container grid gap-8 grid-cols-1 lg:grid-cols-12;
+    @apply container;
   }
 
-  &__content {
-    @apply flex flex-col justify-center lg:col-span-5;
+  &__title {
+    @apply text-center mb-12;
+  }
+
+  &__grid {
+    @apply grid grid-cols-1 gap-6 sm:grid-cols-2;
+  }
+
+  &__card {
+    @apply flex flex-col overflow-hidden;
+    border-radius: 20px;
+    background-color: $white;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.13);
+    }
+
+    &-media {
+      position: relative;
+      overflow: hidden;
+    }
+
+    &-image {
+      @apply w-full object-cover block;
+      height: 260px;
+      transition: transform 0.4s ease;
+    }
+
+    &:hover &-image {
+      transform: scale(1.05);
+    }
+
+    &-video {
+      @apply w-full block;
+      height: 260px;
+    }
+
+    &-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        transparent 100%
+      );
+    }
+
+    &-year {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      background-color: $pizazz;
+      color: $white;
+      width: fit-content;
+      margin-bottom: 8px;
+
+      // For video cards: absolute top-left
+      .last-edition__card-media > & {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        margin-bottom: 0;
+      }
+    }
+
+    &-location {
+      color: $white;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    &-location--below {
+      font-size: 16px;
+      font-weight: 700;
+      color: $green-kelp;
+      margin-bottom: 6px;
+    }
+
+    &-content {
+      padding: 20px 24px 24px;
+    }
 
     &-description {
-      @apply mt-4 md:mt-6;
+      font-size: 16px;
+      line-height: 1.7;
+      color: $black !important;
     }
-  }
-
-  &__media {
-    @apply flex justify-center items-center lg:col-span-6 lg:col-start-7;
   }
 }

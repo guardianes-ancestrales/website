@@ -3,7 +3,7 @@
     "title": "¿Quienes somos?",
     "subtitle": "¡Conócenos!",
     "rina": [
-      "Rina Plata es una apasionada desarrolladora frontend, amante de los gatos y orgullosamente indígena Wayuu de San Juan del Cesar, La Guajira, Colombia, que no solo brilla en el mundo tecnológico como estudiante de ingeniería de software en el Tecnológico de Antioquia y trabajando como desarrolladora en Syspotec, sino que también es la fuerza impulsora detrás de esta iniciativa.",
+      "Rina Plata es una apasionada desarrolladora frontend, amante de los gatos y orgullosamente indígena Wayuu de San Juan del Cesar, La Guajira, Colombia, que no solo brilla en el mundo tecnológico como estudiante de ingeniería de software en el Tecnológico de Antioquia y trabajando como desarrolladora en Enerbit, sino que también es la fuerza impulsora detrás de esta iniciativa.",
       "Además de su destacado desempeño profesional, Rina es Embajadora de WIDS (Women in Data Science) Medellín y Women Techmakers, comprometida en promover la participación femenina en la ciencia de datos y tecnología. Es miembro activo de las comunidades Tech Community y PionerasDev, compartiendo valiosos conocimientos y experiencias.",
       "Guiada por su amor por su cultura y raíces, Rina lidera con orgullo Guardianes Ancestrales, un evento que existe gracias a su visión y deseo de llevar conocimiento y apoyo a su comunidad en La Guajira. Este proyecto está dedicado a preservar el conocimiento ancestral y representa un esfuerzo significativo para fortalecer los lazos culturales y educativos.",
       "Su compromiso se extiende al proyecto <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, donde contribuye al acceso público de información valiosa sobre el país a través de una API RESTful.",
@@ -12,38 +12,53 @@
     ],
     "team": {
       "title": "Equipo",
-      "intro": "Detrás de Rina existe un gran equipo que trabaja cada día, de manera voluntaria, para apoyar esta hermosa iniciativa y llevarle alegría a muchos niños y niñas de La Guajira.",
+      "intro": "Detrás de Rina hay un gran equipo que trabaja de manera voluntaria para hacer posible esta iniciativa y llevarle alegría a niños y niñas de comunidades indígenas de Colombia.",
       "thanks": "Gracias infinitas a Miguel Teherán, Carolina Castañeda, Valentina Pinzón, Sandy Atencio, Sara Nieto, Valentina Ariza, Vrilli Castro, Elizabeth Rangel, Verónica Rodríguez, Kaky Rodríguez, Maris Botero, María 'Maka' Hernández, Greysy Rodríguez, Marian Villa, Rosario Casas, Manuela Castrillón, Sebastián Vargas, y muchas personas más que día a día nos apoyan con un granito de arena."
     },
     "lastEdition": {
-      "title": "Edición anterior",
-      "description": "Durante el 2021-2022 se hizo la recolección económica, a través de Vaki para llevar útiles escolares a los niños de la comunidad Wayuu Curari, en La Guajira, y aunque logramos recolectar más de 2.800.000 pesos colombianos, muchos niños quedaron sin útiles, por lo que esperamos superar este número en este 2024 y poder llevar más alegría a todos los niños."
+      "title": "Ediciones anteriores",
+      "edition0": {
+        "location": "La Guajira, 2021–2022",
+        "description": "Recolectamos más de $2.800.000 COP a través de Vaki para llevar útiles escolares a los niños de la comunidad Wayuú Curari en La Guajira. Fue el primer paso de Guardianes Ancestrales."
+      },
+      "edition1": {
+        "location": "La Guajira, 2024",
+        "description": "Realizamos el primer evento de tecnología dentro de un resguardo indígena. Donamos una biblioteca completa y un kiosco tecnológico, y acompañamos a la comunidad con seguimiento por más de un año."
+      },
+      "edition2": {
+        "location": "Alejandría, Antioquia — 2025",
+        "description": "Entregamos libros a niños y niñas de una vereda del municipio de Alejandría, acercando material educativo a quienes más lo necesitan."
+      },
+      "edition3": {
+        "location": "La Guajira, 2026",
+        "description": "Regresamos al resguardo donde realizamos el primer evento de tecnología para hacer entrega de conectividad Starlink, dando continuidad al impacto iniciado en 2024."
+      }
     }
   },
   "communities": "Comunidades",
   "donate": {
     "section": {
       "title": "Apóyanos",
-      "description": "¿Quieres ser parte de este proyecto y ayudar a cambiar las vidas de los niños de las comunidades indigenas? Puedes apoyarnos de muchas formas:",
+      "description": "¿Quieres ser parte de este proyecto y ayudar a cambiar las vidas de niños y niñas de comunidades indígenas? Puedes apoyarnos de muchas formas:",
       "money": {
         "title": "Dinero",
-        "description": "Puedes enviar donaciones económicas desde $5.000COP a través de <a href='https://vaki.co/es/vaki/Jgub9KCub7NQrS6yJjvB' target='blank'>Vaki </a> o Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>acá</a>.<br/>El dinero recaudado será invertido en la compra de elementos para la biblioteca que se donará el día del evento."
+        "description": "Puedes enviar donaciones económicas desde $5.000 COP a través de <a href='https://vaki.co/vaki/guardianesAncestralesMedellin' target='blank'>Vaki</a> o Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>acá</a>.<br/>Llevamos el 16% de nuestra meta de $4.000.000 COP. Todo lo recaudado se invertirá en materiales educativos que se donarán el día del evento."
       },
       "items": {
         "title": "Elementos",
-        "description": "Dona elementos educativos, libros, juguetes, ropa, o útiles escolares. <br/>Para coordinar la entrega (en la ciudad de Medellín-Colombia) escríbenos a <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> o envíanos un mensaje por <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a><br/>Encuentra <a href='https://guardianesancestrales.com/donar' target='blank'>acá</a> una lista de ideas de cosas que puedes donar."
+        "description": "Dona libros, ropa, útiles escolares o materiales educativos. <br/>Para coordinar la entrega (en Medellín, Colombia) escríbenos a <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> o envíanos un mensaje por <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a>.<br/>Encuentra <a href='https://guardianesancestrales.com/donar' target='blank'>acá</a> una lista de ideas de cosas que puedes donar."
       },
       "sponsorship": {
         "title": "Patrocinio",
-        "description": "¡Buscamos empresas que deseen patrocinarnos!<br/>Comunícate con nosotros a través del correo <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> para conocer los planes de patrocinio."
+        "description": "¿Tu empresa quiere hacer parte de este proyecto?<br/>Comunícate con nosotros a través del correo <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> y te contamos los planes de patrocinio disponibles."
       }
     }
   },
   "event": {
     "title": "Guardianes Ancestrales",
-    "intro": "Un evento diseñado para los niños y niñas de La Guajira, Colombia.",
-    "description": "La meta de este evento es mejorar el acceso a la educación y proporcionar herramientas para fortalezer las habilidades academicas y socioemocionales de la niñez en esta comunidad. Este 27 de abril, tendremos un día de talleres interactivos y haremos entrega de donaciones.",
-    "donate": "Haz parte de este evento a través de tus donaciones.",
+    "intro": "Un evento diseñado para los niños y niñas del pueblo Emberá, en Medellín, Colombia.",
+    "description": "El 30 de mayo de 2026 viviremos un día de talleres interactivos, actividades culturales y entrega de donaciones. Nuestro objetivo es acercar la educación y la tecnología a los niños y niñas Emberá que participarán en este encuentro.",
+    "donate": "Tu donación hace posible este día. Cada aporte cuenta.",
     "cta": "Cómo donar"
   },
   "faq": {
@@ -84,7 +99,7 @@
     }
   },
   "hero": {
-    "subtitle": "Fortaleciendo el futuro de la comunidad indigena Wayuu a través de la educación y la tradición."
+    "subtitle": "Educación, identidad y tecnología al servicio de las comunidades indígenas de Colombia."
   },
   "navbar": {
     "about": "Acerca de",
@@ -95,9 +110,9 @@
   },
   "sponsors": "Patrocinadores",
   "story": {
-    "title": "El pueblo Wayuú",
-    "intro": "Los Wayuú, o guajiros, son el pueblo indígena mas grande de colombia, mayoritariamente ubicados en La Guajira y con una población estimada de 380.000 personas.",
-    "description": "Tan solo el 11% de esta comunidad vive en cabeceras municipales, lo que significa que el acceso a la educación es limitado. Guardianes Ancestrales es una iniciativa que busca cerrar estas brechas educativas."
+    "title": "Colombia indígena",
+    "intro": "Colombia tiene más de 115 pueblos indígenas reconocidos. Muchos de ellos viven lejos de las ciudades, con acceso limitado a educación, recursos y oportunidades.",
+    "description": "Guardianes Ancestrales trabaja directamente con estas comunidades. Llevamos talleres, donaciones y actividades culturales a niños y niñas que merecen aprender sin olvidar quiénes son."
   },
   "thermometer": {
     "donate": "Dona"

@@ -97,7 +97,7 @@ export const DonateDetails = (): JSX.Element => {
           <iframe
             id="vakiIframe"
             title="Guardianes Ancestrales"
-            src="https://vaki.co/iframe/Jgub9KCub7NQrS6yJjvB"
+            src="https://vaki.co/iframe/guardianesAncestralesMedellin"
             className="donate-details__iframe"
           ></iframe>
         </div>

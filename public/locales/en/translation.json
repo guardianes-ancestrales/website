@@ -3,21 +3,36 @@
     "title": "About us",
     "subtitle": "Get to know us!",
     "rina": [
-      "Rina Plata is a passionate frontend developer, cat lover and proud Wayuu indigenous from San Juan del Cesar, La Guajira, Colombia, who not only shines in the technological world as a software engineering student at the Tecnológico de Antioquia and working as a developer at Syspotec, but is also the driving force behind this initiative.",
+      "Rina Plata is a passionate frontend developer, cat lover and proud Wayuu indigenous from San Juan del Cesar, La Guajira, Colombia, who not only shines in the technological world as a software engineering student at the Tecnológico de Antioquia and working as a developer at Enerbit, but is also the driving force behind this initiative.",
       "In addition to her outstanding professional performance, Rina is an Ambassador of WIDS (Women in Data Science) Medellín and Women Techmakers, committed to promoting female participation in data science and technology. She is an active member of the Tech Community and PionerasDev communities, sharing valuable knowledge and experiences.",
       "Guided by her love for her culture and roots, Rina proudly leads Guardianes Ancestrales, an event that exists thanks to her vision and desire to bring knowledge and support to her community in La Guajira. This project is dedicated to preserving ancestral knowledge and represents a significant effort to strengthen cultural and educational ties.",
       "Her commitment extends to the project <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, where she contributes to public access to valuable information about the country through a RESTful API.",
-      "Tech event organizer and speaker, Rina generously shares her experience, leaving an inspiring mark on the tech community. Her story is a testament to passion, dedication, and the ability to make a difference, not only in the tech world, but also in the positive impact he can have in his own community.",
+      "Tech event organizer and speaker, Rina generously shares her experience, leaving an inspiring mark on the tech community. Her story is a testament to passion, dedication, and the ability to make a difference, not only in the tech world, but also in the positive impact she can have in her own community.",
       "Check here Rina's talk in JSConf 2023: <a href='https://youtu.be/CjGA5ba5aCc?t=30333'>'My experience as a Wayuu developer in the tech industry'</a>"
     ],
     "team": {
       "title": "Team",
-      "intro": "Behind Rina there is a great team that works every day, voluntarily, to support this beautiful initiative and bring joy to many boys and girls in La Guajira.",
+      "intro": "Behind Rina there is a great team that works voluntarily to make this initiative possible and bring joy to children from indigenous communities across Colombia.",
       "thanks": "Endless thanks to Miguel Teherán, Carolina Castañeda, Valentina Pinzón, Sandy Atencio, Sara Nieto, Valentina Ariza, Vrilli Castro, Elizabeth Rangel, Verónica Rodríguez, Kaky Rodríguez, Maris Botero, María 'Maka' Hernández, Greysy Rodríguez, Marian Villa, Rosario Casas, Manuela Castrillón, Sebastián Vargas, and many more people who support us every day with a grain of sand."
     },
     "lastEdition": {
-      "title": "Previous edition",
-      "description": "During 2021-2022, the donations for the event where collected through Vaki to bring school supplies to the children of the Wayuu Curari community, in La Guajira, and although we managed to collect more than 2,800,000 Colombian pesos, many children were left without supplies. Therefore, we hope to exceed this number in 2024 and be able to bring more joy to all children."
+      "title": "Previous editions",
+      "edition0": {
+        "location": "La Guajira, 2021–2022",
+        "description": "We raised more than 2,800,000 Colombian pesos through Vaki to bring school supplies to the children of the Wayuú Curari community in La Guajira. This was Guardianes Ancestrales' first step."
+      },
+      "edition1": {
+        "location": "La Guajira, 2024",
+        "description": "We held the first technology event inside an indigenous resguardo. We donated a full library and a technology kiosk, and followed up with the community for over a year."
+      },
+      "edition2": {
+        "location": "Alejandría, Antioquia — 2025",
+        "description": "We delivered books to children in a rural village in the municipality of Alejandría, bringing educational materials to those who need them most."
+      },
+      "edition3": {
+        "location": "La Guajira, 2026",
+        "description": "We returned to the resguardo where we held the first technology event to deliver Starlink connectivity, continuing the impact that began in 2024."
+      }
     }
   },
   "communities": "Communities",
@@ -27,23 +42,23 @@
       "description": "Do you want to be part of this project and help change the lives of children in indigenous communities? You can support us in many ways:",
       "money": {
         "title": "Money",
-        "description": "You can send financial donations from $5,000COP through <a href='https://vaki.co/es/vaki/Jgub9KCub7NQrS6yJjvB' target='blank'>Vaki </a> or Nequi by scanning the QR code you find <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>here</a>.<br/>The money raised will be invested in the purchase of items for the library that will be donated on the day of the event."
+        "description": "You can send financial donations from $5,000 COP through <a href='https://vaki.co/vaki/guardianesAncestralesMedellin' target='blank'>Vaki</a> or Nequi by scanning the QR code you find <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>here</a>.<br/>We have reached 16% of our $4,000,000 COP goal. All funds will be invested in educational materials donated on the day of the event."
       },
       "items": {
         "title": "Items",
-        "description": "Donate educational items, books, toys, clothing, or school supplies. <br/>To coordinate delivery (in the city of Medellín-Colombia) send us an email to <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> or send us a message through <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a><br/>Find <a href='https://guardianesancestrales.com/donar' target='blank'>here</a> a list of ideas of things you can donate."
+        "description": "Donate books, clothing, school supplies, or educational materials.<br/>To coordinate delivery (in Medellín, Colombia) send us an email to <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> or send us a message through <a href='https://www.instagram.com/guardianes_ancestralesdev/' target='blank'>Instagram</a>.<br/>Find <a href='https://guardianesancestrales.com/donar' target='blank'>here</a> a list of donation ideas."
       },
       "sponsorship": {
         "title": "Sponsorship",
-        "description": "We are looking for companies that wish to sponsor us!<br/>Contact us through <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> to find out about sponsorship plans."
+        "description": "Does your company want to be part of this project?<br/>Contact us at <a href='mailto:guardianesancestralesdev@gmail.com'>guardianesancestralesdev@gmail.com</a> to learn about our available sponsorship plans."
       }
     }
   },
   "event": {
     "title": "Guardianes Ancestrales",
-    "intro": "An event designed for the boys and girls of La Guajira, Colombia.",
-    "description": "The goal of this event is to improve access to education and provide tools to strengthen the academic and socio-emotional skills of children in this community. This April 27, we will have a day of interactive workshops and we will deliver donations.",
-    "donate": "Be part of this event through your donations.",
+    "intro": "An event designed for the children of the Emberá community, in Medellín, Colombia.",
+    "description": "On May 30, 2026, we will hold a day of interactive workshops, cultural activities, and donation delivery. Our goal is to bring education and technology closer to the Emberá children who will participate in this gathering.",
+    "donate": "Your donation makes this day possible. Every contribution counts.",
     "cta": "How to donate"
   },
   "faq": {
@@ -84,7 +99,7 @@
     }
   },
   "hero": {
-    "subtitle": "Strengthening the future of the Wayuu indigenous community through education and tradition."
+    "subtitle": "Education, identity and technology in service of Colombia's indigenous communities."
   },
   "navbar": {
     "about": "About",
@@ -95,9 +110,9 @@
   },
   "sponsors": "Sponsors",
   "story": {
-    "title": "The Wayuú",
-    "intro": "The Wayuú, or Guajiros, are the largest indigenous group in Colombia, mostly located in La Guajira and with an estimated population of 380,000 people.",
-    "description": "Only 11% of this community lives within urban areas, which means that access to education is limited. Guardianes Ancestrales is an initiative that seeks to close these educational gaps."
+    "title": "Indigenous Colombia",
+    "intro": "Colombia has more than 115 recognized indigenous peoples. Many of them live far from cities, with limited access to education, resources, and opportunities.",
+    "description": "Guardianes Ancestrales works directly with these communities. We bring workshops, donations, and cultural activities to children who deserve to learn without forgetting who they are."
   },
   "thermometer": {
     "donate": "Donate"
