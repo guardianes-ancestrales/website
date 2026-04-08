@@ -1,29 +1,47 @@
+@use "sass:color";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
 .story {
-  @apply py-16 container;
+  @apply py-20;
 
   &__container {
-    @apply gap-8 grid grid-cols-1 md:grid-cols-12;
-  }
-
-  &__content {
-    @apply flex flex-col justify-center md:col-span-6;
-
-    &-intro {
-      @apply mt-4 md:mt-6;
-    }
-
-    &-description {
-      @apply mt-2 md:mt-4;
-    }
+    @apply container gap-12 grid grid-cols-1 items-center md:grid-cols-2;
   }
 
   &__media {
-    @apply flex items-center justify-center md:col-span-6;
+    @apply flex items-center justify-center;
 
     &-image {
-      @apply max-h-72 md:max-h-96;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
+      display: block;
+      object-fit: cover;
+    }
+  }
 
-      mask: url("../../assets/illustrations/mask-blob.svg");
+  &__content {
+    @apply flex flex-col justify-center;
+
+    h2 {
+      color: $green-kelp;
+      margin-bottom: 16px;
+    }
+
+    &-intro {
+      font-size: 16px;
+      line-height: 1.7;
+      color: $black;
+      font-weight: 500;
+    }
+
+    &-description {
+      @apply mt-4;
+      font-size: 15px;
+      line-height: 1.7;
+      color: color.adjust($green-kelp, $lightness: 10%);
     }
   }
 }
