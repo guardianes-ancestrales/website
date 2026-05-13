@@ -51,7 +51,8 @@ export const DonateDetails = (): JSX.Element => {
       title: "Donaciones económicas",
       vaki: {
         title: "Vaki",
-        description: "Dona desde $5.000COP a través de Vaki",
+        description:
+          "Las donaciones por Vaki están cerradas. Si deseas apoyar económicamente, puedes hacerlo a través de Nequi.",
       },
       nequi: {
         title: "Nequi",
@@ -94,12 +95,6 @@ export const DonateDetails = (): JSX.Element => {
           <p className="donate-details__description">
             {content.money.vaki.description}
           </p>
-         <iframe id="vakiIframe"
-            title="Apoya a niños indígenas Emberas en Medellín para mejorar su educación y abrir un mundo de oportunidad en tecnología "
-            width="100%"
-            height="450"
-            src="https://vaki.co/iframe/RFHtrOb9wrfTMxu3j8a0">
-        </iframe>
         </div>
 
         {/* nequi */}
