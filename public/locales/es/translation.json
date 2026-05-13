@@ -6,7 +6,7 @@
       "Rina Plata es una apasionada desarrolladora frontend, amante de los gatos y orgullosamente indígena Wayuu de San Juan del Cesar, La Guajira, Colombia, que no solo brilla en el mundo tecnológico como estudiante de ingeniería de software en el Tecnológico de Antioquia y trabajando como desarrolladora en Enerbit, sino que también es la fuerza impulsora detrás de esta iniciativa.",
       "Además de su destacado desempeño profesional, Rina es Embajadora de WIDS (Women in Data Science) Medellín y Women Techmakers, comprometida en promover la participación femenina en la ciencia de datos y tecnología. Es miembro activo de las comunidades Tech Community y PionerasDev, compartiendo valiosos conocimientos y experiencias.",
       "Guiada por su amor por su cultura y raíces, Rina lidera con orgullo Guardianes Ancestrales, un evento que existe gracias a su visión y deseo de llevar conocimiento y apoyo a su comunidad en La Guajira. Este proyecto está dedicado a preservar el conocimiento ancestral y representa un esfuerzo significativo para fortalecer los lazos culturales y educativos.",
-      "Su compromiso se extiende al proyecto <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, donde contribuye al acceso público de información valiosa sobre el país a través de una API RESTful.",
+      "Su compromiso se extiende al proyecto <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, donde contribuye al acceso público de información valiosa sobre el país a través de una API RESTful. También puedes conocer más sobre su trabajo en su <a href='https://rinaplata.github.io/#/' target='blank'>portafolio</a>.",
       "Organizadora de eventos tecnológicos y ponente, Rina comparte generosamente su experiencia, dejando una huella inspiradora en la comunidad tecnológica. Su historia es un testimonio de pasión, dedicación y la capacidad de marcar la diferencia, no solo en el mundo tecnológico, sino también en el impacto positivo que puede tener en su propia comunidad.",
       "Mira aquí la charla de Rina en la JSConf 2023: <a href='https://youtu.be/CjGA5ba5aCc?t=30333'>'Mi Experiencia como Programadora Wayuu en la Industria de la tecnología'</a>"
     ],
@@ -42,7 +42,7 @@
       "description": "¿Quieres ser parte de este proyecto y ayudar a cambiar las vidas de niños y niñas de comunidades indígenas? Puedes apoyarnos de muchas formas:",
       "money": {
         "title": "Dinero",
-        "description": "Puedes enviar donaciones económicas desde $5.000 COP a través de <a href='https://vaki.co/vaki/guardianesAncestralesMedellin' target='blank'>Vaki</a> o Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>acá</a>.<br/>Llevamos el 16% de nuestra meta de $4.000.000 COP. Todo lo recaudado se invertirá en materiales educativos que se donarán el día del evento."
+        "description": "Las donaciones por Vaki están cerradas. Puedes enviar donaciones económicas por Nequi escaneando el código QR que encuentras <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>acá</a>.<br/>Llevamos el 16% de nuestra meta de $4.000.000 COP. Todo lo recaudado se invertirá en materiales educativos que se donarán el día del evento."
       },
       "items": {
         "title": "Elementos",
@@ -100,7 +100,7 @@
       },
       "money": {
         "question": "¿Puedo donar dinero?",
-        "answer": "Si, no importa el valor, tu aporte puede cambiar vidas. Tenemos varias alternativas para las donaciones monetarias, puedes donar a través de nuestro Vaki o Nequi utilizando nuestro código QR."
+        "answer": "Si, no importa el valor, tu aporte puede cambiar vidas. Las donaciones por Vaki están cerradas, pero puedes donar a través de Nequi utilizando nuestro código QR."
       }
     }
   },

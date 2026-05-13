@@ -6,7 +6,7 @@
       "Rina Plata is a passionate frontend developer, cat lover and proud Wayuu indigenous from San Juan del Cesar, La Guajira, Colombia, who not only shines in the technological world as a software engineering student at the Tecnológico de Antioquia and working as a developer at Enerbit, but is also the driving force behind this initiative.",
       "In addition to her outstanding professional performance, Rina is an Ambassador of WIDS (Women in Data Science) Medellín and Women Techmakers, committed to promoting female participation in data science and technology. She is an active member of the Tech Community and PionerasDev communities, sharing valuable knowledge and experiences.",
       "Guided by her love for her culture and roots, Rina proudly leads Guardianes Ancestrales, an event that exists thanks to her vision and desire to bring knowledge and support to her community in La Guajira. This project is dedicated to preserving ancestral knowledge and represents a significant effort to strengthen cultural and educational ties.",
-      "Her commitment extends to the project <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, where she contributes to public access to valuable information about the country through a RESTful API.",
+      "Her commitment extends to the project <a href='https://api-colombia.com/' target='blank'>API Colombia</a>, where she contributes to public access to valuable information about the country through a RESTful API. You can also learn more about her work in her <a href='https://rinaplata.github.io/#/' target='blank'>portfolio</a>.",
       "Tech event organizer and speaker, Rina generously shares her experience, leaving an inspiring mark on the tech community. Her story is a testament to passion, dedication, and the ability to make a difference, not only in the tech world, but also in the positive impact she can have in her own community.",
       "Check here Rina's talk in JSConf 2023: <a href='https://youtu.be/CjGA5ba5aCc?t=30333'>'My experience as a Wayuu developer in the tech industry'</a>"
     ],
@@ -42,7 +42,7 @@
       "description": "Do you want to be part of this project and help change the lives of children in indigenous communities? You can support us in many ways:",
       "money": {
         "title": "Money",
-        "description": "You can send financial donations from $5,000 COP through <a href='https://vaki.co/vaki/guardianesAncestralesMedellin' target='blank'>Vaki</a> or Nequi by scanning the QR code you find <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>here</a>.<br/>We have reached 16% of our $4,000,000 COP goal. All funds will be invested in educational materials donated on the day of the event."
+        "description": "Vaki donations are closed. You can send financial donations through Nequi by scanning the QR code you find <a href='https://guardianesancestrales.com/donar#nequi' target='blank'>here</a>.<br/>We have reached 16% of our $4,000,000 COP goal. All funds will be invested in educational materials donated on the day of the event."
       },
       "items": {
         "title": "Items",
@@ -100,7 +100,7 @@
       },
       "money": {
         "question": "Can I donate money?",
-        "answer": "Yes, no matter the value, your contribution can change lives. We have several alternatives for monetary donations, you can donate through our Vaki or Nequi using our QR code."
+        "answer": "Yes, no matter the value, your contribution can change lives. Vaki donations are closed, but you can donate through Nequi using our QR code."
       }
     }
   },
